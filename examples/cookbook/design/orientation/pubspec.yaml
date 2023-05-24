@@ -1,0 +1,15 @@
+name: orientation
+description: Sample code for orientation cookbook recipe.
+
+environment:
+  sdk: ^3.0.0-0
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_lints: ^2.0.1
+
+flutter:
+  uses-material-design: true

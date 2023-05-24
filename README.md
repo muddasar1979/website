@@ -1,207 +1,332 @@
-# [Flutter][]'s website ![Flutter logo][]
+[![Flutter logo]](https://docs.flutter.dev)
 
-[![Build Status][]][Repo on Travis]
+[Flutter logo]: https://github.com/dart-lang/site-shared/blob/main/src/_assets/image/flutter/icon/64.png?raw=1
+
+# [Flutter][] website 
+
+[![Build Status][]][Repo on GitHub Actions]
+[![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/flutter/website/badge)](https://deps.dev/project/github/flutter%2Fwebsite)
+
+[Build Status]: https://github.com/flutter/website/workflows/build/badge.svg
+[Flutter]: https://docs.flutter.dev/
+[Repo on GitHub Actions]: https://github.com/flutter/website/actions?query=workflow%3Abuild+branch%3Amain
+
+## Table of contents
+
+* [Issues, bugs, and requests](#issues-bugs-and-requests)
+* [Before you submit a PR](#before-you-submit-a-pr)
+* [Before you build this site](#before-you-build-this-site)
+  - [1. Get the prerequisites](#1-get-the-prerequisites)
+  - [2. Clone this repo _and_ its submodules][]
+* [Setting up your local environment and serving changes][]
+* [Creating and/or editing DartPad example code](#creating-andor-editing-dartpad-example-code)
+  - [DartPad example code in GitHub gists](#dartpad-example-code-in-github-gists)
+  - [DartPad example code in this repo](#dartpad-example-code-in-this-repo)
+* [Deploying to a staging site](#deploying-to-a-staging-site)
+* [Writing for flutter.dev](#writing-for-flutterdev)
+
+[2. Clone this repo _and_ its submodules]: #2-clone-this-repo-and-its-submodules
+[Setting up your local environment and serving changes]: #setting-up-your-local-environment-and-serving-changes
 
 ## Issues, bugs, and requests
 
-We welcome contributions and feedback on our website!
+We welcome contributions and feedback on our website. 
 Please file a request in our
-[issue tracker](https://github.com/flutter/website/issues/new)
-and we'll take a look.
+[issue tracker](https://github.com/flutter/website/issues/new/choose) 
+or create a [pull request](https://github.com/flutter/website/pulls). 
+For simple changes (such as tweaking some text), 
+it's easiest to make changes using the GitHub UI.
 
-For simple changes (such as to CSS and text), you probably don't need to
-build this site.  Often you can make changes using the GitHub UI.
+If you have an issue with the 
+API docs on [api.flutter.dev](https://api.flutter.dev), 
+please file those issues on 
+the [flutter/flutter](https://github.com/flutter/flutter/issues) repo, 
+not on this (flutter/website) repo. 
+The API docs are embedded in Flutter's source code, 
+so the engineering team handles those.
 
-If you want/need to build, read on.
+
+## Before you submit a PR
+
+We love it when the community gets involved in improving our docs! 
+But here are a few notes to keep in mind before you submit a PR:
+
+- When triaging issues, 
+  we sometimes label an issue with the tag **PRs welcome**. 
+  But we welcome PRs on other issues as well&mdash;
+  it doesn't have to be tagged with that label.
+- Please don't run our docs through Grammarly (or similar) 
+  and submit those changes as a PR.
+- We follow the [Google Developer Documentation Style Guidelines][] —
+  for example, don't use "i.e." or "e.g.", 
+  avoid writing in first person,
+  and avoid writing in future tense.
+  You can start with the
+  [style guide highlights](https://developers.google.com/style/highlights) 
+  or the [word list](https://developers.google.com/style/word-list), 
+  or use the search bar that's at the top of every style guide page. 
+
+> We truly thank you for your willingness and helpfulness
+> in keeping the website docs up to date!
+
+[Google Developer Documentation Style Guidelines]: https://developers.google.com/style
 
 ## Before you build this site
 
+For changes beyond simple text and CSS tweaks, 
+we recommend building the site.
+
 ### 1. Get the prerequisites
 
-Install the following tools if you don't have them already.
+Install the following tools, if you don't have them already:
 
-- **bash**, the Bourne shell. These instructions assume you're using `bash` -- setup might not work if you use another shell.
-- **[nvm][]**, the Node Version Manager.
-- **[rvm][]**, the Ruby Version Manager.
-- **[Flutter][Flutter install]**
-- **[Dart SDK][Dart install]**
-
-> IMPORTANT: Follow the installation instructions for each of the tools
-carefully. In particular, configure your shell/environment so
-that the tools are available in every terminal/command window you create.
+- **bash**, the Bourne shell<br> 
+  These instructions assume you're using `bash`, 
+  and setup might not work if you use another shell.
+- **GNU Make**<br>
+  On Windows the easiest way to install Make is `choco install make`. 
+  Other options include using a
+  [subsystem](https://docs.microsoft.com/en-us/windows/wsl/install-win10). 
+- **Docker**. 
+  We use Docker for local dev, tests, and building the site. 
+  Install it from https://docs.docker.com/get-docker/.
+- **Firebase CLI**, for hosting the site locally. 
+  One way to get this is to run `npm install -g firebase-tools`. 
+  For full setup details, read the
+  [Firebase CLI documentation](https://firebase.google.com/docs/cli).
 
 ### 2. Clone this repo _and_ its submodules
 
-> NOTE: This repo has git _submodules_, which affects how you clone it.
+> **Note:** This repo has git _submodules_, 
+> which affects how you clone it. 
+> The GitHub documentation has general help on
+> [forking][] and [cloning][] repos.
 
-To **clone [this repo][]**, follow the instructions given in the
-GitHub help on [Cloning a repository][], and _choose one_ of the following
-submodule-cloning techniques:
+If you are working in the Windows desktop environment,
+make sure you have Git `autocrlf` set to `input`
+**before** initializing the submodules.
+This ensures that line endings are handled correctly
+_before_ any Bash scripts are executed within the submodules.
+See [issue 6201][] for details.
 
-- Clone this repo and its submodule _at the same_, use the
-  `--recurse-submodules` option:<br>
-  `git clone --recurse-submodules https://github.com/flutter/website.git`
-- If you've already cloned this repo without its submodule, then run
-  this command from the repo root:<br>
-  `git submodule update --init --remote`
+[cloning]: https://help.github.com/articles/cloning-a-repository
+[forking]: https://docs.github.com/en/get-started/quickstart/fork-a-repo
+[issue 6201]: https://github.com/flutter/website/issues/6201
 
-> NOTE: At any time during development you can use the submodule command to
-> refresh submodules:<br>
+If you're outside of the Flutter organization, 
+we recommend you **create a fork** of the repo under your own account, 
+and then submit a PR from that fork. 
+
+Once you have a fork (or you're a Flutter org member), 
+_choose one_ of the following submodule-cloning techniques:
+
+- Clone the repo and its submodule at the same
+  using the `--recurse-submodules` option:
+  ```bash
+  $ git clone --recurse-submodules https://github.com/<username-or-flutter>/website.git
+  ```
+
+  OR
+  
+- If you've already cloned the repo without its submodule, 
+  then run this command from the repo root:<br>
+  ```bash
+  $ git submodule update --init --recursive
+  ```
+
+> **Note:** At any time during development 
+> you can use the `git submodule` command to refresh submodules:
+>
+> ```bash
+> $ git pull; git submodule update --init --recursive
 > ```
-> git pull; git submodule update --init --remote
-> ```
 
-### 3. Run installation scripts
+## Setting up your local environment and serving changes
 
-> NOTE: It is safe to (re-)run all of the commands and scripts given below even
-if you already have the required packages installed.
-
-**Open a bash terminal/command window** and execute the following commands:
-
-1. <code>cd <i>\<path-to-this-repo></i></code> &nbsp;&nbsp;# change to
-   **root of this repo**
-1. `source ./tool/env-set.sh` &nbsp;&nbsp;#
-   initialize environment variables; install/use required Node & Ruby version
-1. `./tool/before-install.sh` &nbsp;&nbsp;#
-   install core set of required tools
-1. `./tool/install.sh` &nbsp;&nbsp;#
-   install everything else needed to build this site
-
-> IMPORTANT:
-> - Any time you create a **new terminal/command window** to work on
->   this repo, **repeat steps 1 and 2** above.
-> - If you upgrade Dart then rerun all of the steps above.
-
-## Developing
-
- 1. Create a branch.
- 1. Make your changes.
- 1. Test your changes by serving the site locally.
-    Run either **one** of these commands:
-    - `./tool/serve.sh` (can also run via `npm run start`)
-
-    or
-    - `bundle exec jekyll serve --incremental --watch --livereload --port 4002`
-
-      **Note**: Unless you're editing files under `site-shared`, you can safely
-      ignore `ERROR: directory is already being watched` messages.
-      For details, see [#1363](https://github.com/flutter/website/issues/1363).
-      
-      **Note**: The first time you run either one of these commands,
-      jekyll takes anywhere between 10 - 20 seconds to generate static
-      content inside the `_sites` directory. If you try to verify the
-      site locally but aren't able to see the content right away,
-      wait 20 seconds before stopping the 
-      server or concluding that something is wrong. 
- 1. Prior to submitting, validate site links:<br>
-    `./tool/shared/check-links.sh`
-
-> TIP: Sometimes Jekyll gets confused and seems to be out-of-sync. (This might
-> happen, for example, when you pull from master and lots of files have moved.)
-> To fix Jekyll, stop the `serve.sh` script and remove the generated site files:
-> hand, and then restart the `serve.sh` script:
-
-> `npm run clean` 
-> OR
-> `rm -Rf ./_site/* ./.jekyll*`
-
-> Next, restart the `serve.sh` script: 
-
-> `npm run start`
-> OR 
-> `./tool/serve.sh`
-
-## Deploy to a staging site
-
-You can deploy your local edits to a personal staging site as follows
-(steps 1 and 2 need to be done only once):
-
- 1. In the [Firebase Console](https://console.firebase.google.com),
-    create your own Firebase project (e.g. 'mit-flutter-staging')
-
- 1. Tell Firebase about that project with the firebase
-    [`use` command](https://firebase.googleblog.com/2016/07/deploy-to-multiple-environments-with.html):
-
-      ```console
-      $ npx firebase use --add
-      ? Which project do you want to add? <select the project you created>
-      ? What alias do you want to use for this project? (e.g. staging) my-foo
-      ```
-
- 1. Tell Firebase that you want to deploy to staging:
-
-    ```console
-    $ npx firebase use my-foo
-    Now using alias staging (<your project name>)
-    ```
- 
- 1. Tell Firebase to execute deployment of your project:
- 
-   ```console
-   $ npx firebase deploy
+1. _Optional:_ After cloning the repo and its submodules, 
+   create a branch for your changes:
+   ```bash
+   $ git checkout -b <BRANCH_NAME>
    ```
    
-   Your personal version of the Flutter website is now deployed to Firebase.
+1. If the Docker Desktop application isn't already running,
+   start it. Look at its status icon: 
+   if it has an exclamation point (`!`),
+   then update Docker Desktop.
 
-Alternatively, you can skip the previous steps and just use the deploy script:
+1. Run the initial setup command:
+   ```bash
+   $ make setup
+   ```
 
-```console
-$ ./tool/shared/deploy.sh --local my-foo
+1. Serve the site locally (via `docker-compose`):
+   ```bash
+   $ make up
+   ```
+   The site is generated, 
+   and then the development server runs in the Docker container, 
+   with the generated `_site` directory visible locally.
 
-=== Deploying to '<your project name>'...
+1. View your changes in the browser by navigating to `http://localhost:4002`.
+   > **Note:** Unless you're editing files under `site-shared`, 
+   > you can safely ignore
+   > `ERROR: directory is already being watched` messages. 
+   > For details, see [#1363](https://github.com/flutter/website/issues/1363).
 
-i  deploying hosting
-i  hosting: preparing _site directory for upload...
-✔  hosting: 213 files uploaded successfully
-i  starting release process (may take several minutes)...
+1. Make your changes. 
+   The files are updated, 
+   and your browser view should update to reflect the changes. 
+   You can either edit files locally or use an editor like `vim` 
+   directly in a shell in the container. 
+   To start a container shell, run `docker-compose exec site bash`.
 
-✔  Deploy complete!
+   > **Tip:** If you aren't seeing the changes you expect,
+   > restart the server and rebuild the site from scratch:
+   > ```bash
+   > $ make down && make clean && make up
+   > ```
+   > In some rare cases you might want to force all running containers down:
+   > ```bash
+   > $ docker rm -f $(docker ps -aq)
+   > ```
+
+1. Commit your changes to the branch and submit your PR.
+
+1. When you've finished developing, shut down the Docker container:
+   ```bash
+   $ make down
+   ```
+   
+> **Tip:** To find additional commands, read the [`Makefile`][]. 
+> For example, if you need to debug the Docker infrastructure, 
+> you can run `make debug`.  
+
+[`Makefile`]: https://github.com/flutter/website/blob/main/Makefile
+
+## Creating and/or editing DartPad example code
+
+Most of the code used to create [DartPad][] examples is hosted on GitHub. 
+However, this repo also contains some `*.dart` files
+responsible for DartPad example code.
+
+[DartPad]: https://dartpad.dev
+
+### DartPad example code in GitHub gists
+
+A typical DartPad example takes the form of an `iframe`, 
+for example, within a codelab's Markdown file:
+
+```html
+<iframe
+  src="{{ site.custom.dartpad.embed-flutter-prefix }}?id=d7b09149ffee2f0535bb0c04d96987f5" 
+  style="border:1px solid lightgrey;margin-top:10px;margin-bottom:25px"
+  frameborder="no" height="500" width="100%">
+</iframe>
 ```
 
-## Deploying to the official site
+This `iframe` depends on the following GitHub gist URL:
+> https://gist.github.com/d7b09149ffee2f0535bb0c04d96987f5
 
-Usually, official site deploys are performed by Travis. In the event that you
-need to manually deploy, use the deploy script and the `default` project:
+For detailed instructions on how to use this approach
+to DartPad examples, see the [DartPad embedding guide][].
 
+[DartPad embedding guide]: https://github.com/dart-lang/dart-pad/wiki/Embedding-Guide
+
+
+### DartPad example code in this repo 
+
+Some DartPad example code remains in this repo:
+- `src/_packages/dartpad_picker/web/dartpad_picker_main.dart`
+
+This code must be manually compiled, 
+which also regenerates the associated JavaScript file in `src/assets/js`:
+```bash
+$ cd src/_packages/dartpad_picker
+$ ./compile.sh
 ```
-./tool/shared/deploy.sh --local --robots ok default
-```
+
+
+## Deploying to a staging site
+
+You can deploy your local edits to a personal staging site as follows.
+
+1. If you don't already have a Firebase project, 
+   navigate to the
+   [Firebase Console](https://console.firebase.google.com) 
+   and create your own Firebase project (for example, `my-foo`).
+
+1. In a separate `bash` shell, change to the repo directory
+   and initialize Firebase:
+
+    ```bash
+    $ npx firebase init
+    ```
+ 
+1. If you created a new project, add it using the
+   [`firebase use` command][]:
+
+    ```bash
+    $ npx firebase use --add
+    ? Which project do you want to add? <select the project you created>
+    ? What alias do you want to use for this project? (e.g. staging) my-foo
+    ```
+
+   [`firebase use` command]: https://firebase.googleblog.com/2016/07/deploy-to-multiple-environments-with.html
+ 
+1. Tell Firebase that you want to deploy to your project:
+
+    ```bash
+    $ npx firebase use my-foo
+    Now using alias staging (my-foo)
+    ```
+
+1. Build and deploy to the specified staging site:
+
+   ```bash
+   $ make stage-local
+   ```
+   
+   Your personal version of the Flutter website
+   is now deployed to Firebase. 
+   Copy the serving URL from the command output.
+
+   > **Warning**  
+   > Before staging the site on Firebase,
+   > terminate all instances serving the site locally with `make up`.
+   
+
+## Refreshing code excerpts
+
+A build that fails with the error
+`=> ERROR: some code excerpts were not refreshed!`
+means that one or more code excerpts in the markdown file
+aren't identical to the
+code in the corresponding `.dart` file. 
+
+To resolve this error,
+from the root of the `website` directory,
+run `./tool/refresh-code-excerpts.sh`. 
+
+For more information see [Code excerpts][] . 
+
+[Code excerpts]: https://github.com/dart-lang/site-shared/blob/main/doc/code-excerpts.md
 
 ## Writing for flutter.dev
 
+The [site-shared](https://github.com/dart-lang/site-shared) repo 
+contains infrastructure shared by most of our Dart and Flutter websites. 
+Some of this README is in the
+[doc](https://github.com/dart-lang/site-shared/tree/main/doc)
+directory in the site-shared repo.
 
-The [site-shared](https://github.com/dart-lang/site-shared) repo
-contains infrastructure shared by most of our Dart and Flutter websites.
-As a result, we've moved some of content of this README to the
-[docs](https://github.com/dart-lang/site-shared/docs)
-directory in the shared repo.
-
-For more information on using/writing for this repo,
+For more information on using and writing for this repo,
 refer to the following docs:
 
-* [Infrastructure](https://github.com/dart-lang/site-shared/blob/master/doc/infrastructure.md)
-* [Markdown](https://github.com/dart-lang/site-shared/blob/master/doc/markdown.md)
-* [Examples (and code excerpts)](https://github.com/dart-lang/site-shared/blob/master/doc/examples.md)
-* [Code excerpts](https://github.com/dart-lang/site-shared/blob/master/doc/code-excerpts.md)
+* [Writing for Dart and Flutter websites](https://github.com/dart-lang/site-shared/blob/main/doc/writing-for-dart-and-flutter-websites.md)
+* [Infrastructure](https://github.com/dart-lang/site-shared/blob/main/doc/infrastructure.md)
+* [Markdown](https://github.com/dart-lang/site-shared/blob/main/doc/markdown.md)
+* [Examples](https://github.com/dart-lang/site-shared/blob/main/doc/examples.md)
+* [Code excerpts][]
+* [Images](https://github.com/dart-lang/site-shared/blob/main/doc/images.md)
+* [Mobile friendly pages: tips & tricks](https://github.com/dart-lang/site-shared/blob/main/doc/mobile-friendly-pages.md)
 
-Also check out the site-shared
-[wiki](https://github.com/dart-lang/site-shared/wiki):
-
-* [Images](https://github.com/dart-lang/site-shared/wiki/Images)
-* [Mobile friendly pages: tips & tricks](https://github.com/dart-lang/site-shared/wiki/Mobile-friendly-pages:-tips-&-tricks)
-* [Writing for Dart and Flutter websites](https://github.com/dart-lang/site-shared/wiki/Writing-for-Dart-and-Flutter-websites)
-
-[Flutter]: https://flutter.dev
-[Build Status]: https://travis-ci.org/flutter/website.svg?branch=master
-[Cloning a repository]: https://help.github.com/articles/cloning-a-repository
-[Dart install]: https://dart.dev/get-dart
-[Flutter install]: https://flutter.dev/docs/get-started/install
-[Flutter logo]: https://github.com/dart-lang/site-shared/blob/master/src/_assets/image/flutter/icon/64.png?raw=1
-[Firebase]: https://firebase.google.com/
-[first-timers SVG]: https://img.shields.io/badge/first--timers--only-friendly-blue.svg?style=flat-square
-[first-timers]: https://www.firsttimersonly.com/
-[Jekyll]: https://jekyllrb.com/
-[nvm]: https://github.com/creationix/nvm#installation
-[Repo on Travis]: https://travis-ci.org/flutter/website
-[rvm]: https://rvm.io/rvm/install#installation
-[this repo]: https://github.com/flutter/website

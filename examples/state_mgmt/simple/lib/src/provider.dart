@@ -2,7 +2,7 @@ import 'dart:collection';
 
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:state_mgmt/src/common.dart';
+import 'common.dart';
 
 CartModel somehowGetMyCartModel(BuildContext context) {
   return Provider.of<CartModel>(context);
@@ -19,9 +19,17 @@ class CartModel extends ChangeNotifier {
   /// The current total price of all items (assuming all items cost $42).
   int get totalPrice => _items.length * 42;
 
-  /// Adds [item] to cart. This is the only way to modify the cart from outside.
+  /// Adds [item] to cart. This and [removeAll] are the only ways to modify the
+  /// cart from the outside.
   void add(Item item) {
     _items.add(item);
+    // This call tells the widgets that are listening to this model to rebuild.
+    notifyListeners();
+  }
+
+  /// Removes all items from the cart.
+  void removeAll() {
+    _items.clear();
     // This call tells the widgets that are listening to this model to rebuild.
     notifyListeners();
   }
@@ -38,12 +46,14 @@ class Item {
 }
 
 class MyCartTotalWidget extends StatelessWidget {
+  const MyCartTotalWidget({super.key});
+
   @override
   Widget build(BuildContext context) {
     // #docregion descendant
     return Consumer<CartModel>(
       builder: (context, cart, child) {
-        return Text("Total price: ${cart.totalPrice}");
+        return Text('Total price: ${cart.totalPrice}');
       },
     );
     // #enddocregion descendant
@@ -51,6 +61,8 @@ class MyCartTotalWidget extends StatelessWidget {
 }
 
 class MyCartUsingWidget extends StatelessWidget {
+  const MyCartUsingWidget({super.key});
+
   @override
   // #docregion build
   // GOOD
@@ -67,31 +79,33 @@ class MyCartUsingWidget extends StatelessWidget {
 }
 
 class MyCatalog extends StatelessWidget {
+  const MyCatalog({super.key});
+
   @override
   Widget build(BuildContext context) {
     return Column(
       children: [
-        MyCatalogItem(Item("A")),
-        MyCatalogItem(Item("B")),
-        MyCatalogItem(Item("C")),
+        MyCatalogItem(Item('A')),
+        MyCatalogItem(Item('B')),
+        MyCatalogItem(Item('C')),
       ],
     );
   }
 }
 
 class MyCatalogItem extends StatelessWidget {
-  final Item item;
+  const MyCatalogItem(this.item, {super.key});
 
-  MyCatalogItem(this.item);
+  final Item item;
 
   @override
   Widget build(BuildContext context) {
     return Row(
       children: [
         Text(item.name),
-        FlatButton(
+        TextButton(
           onPressed: () => myTapHandler(context),
-          child: Text("Add ${item.name}"),
+          child: Text('Add ${item.name}'),
         ),
       ],
     );
@@ -107,11 +121,13 @@ class MyCatalogItem extends StatelessWidget {
 }
 
 class MyHomepage extends StatelessWidget {
+  const MyHomepage({super.key});
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(),
-      body: Column(
+      body: const Column(
         children: [
           MyCatalog(),
           MyCartUsingWidget(),

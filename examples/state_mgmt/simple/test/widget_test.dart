@@ -5,12 +5,12 @@ import 'package:state_mgmt/main.dart';
 import 'package:state_mgmt/src/provider.dart';
 
 void main() {
-  testWidgets('smoke test', (WidgetTester tester) async {
+  testWidgets('smoke test', (tester) async {
     // Build our app and trigger a frame.
     await tester.pumpWidget(
       ChangeNotifierProvider(
-        builder: (context) => CartModel(),
-        child: MyApp(),
+        create: (context) => CartModel(),
+        child: const MyApp(),
       ),
     );
 
@@ -19,9 +19,9 @@ void main() {
     await _visitPage(tester, '/callbacks');
     await _visitPage(tester, '/perf');
 
-    expect(await find.byType(FlatButton).evaluate().length, 4,
-        reason: "Smoke test was expecting a different number of pages to test. "
-            "Please make sure you visit all the pages above.");
+    expect(find.byType(TextButton).evaluate().length, 4,
+        reason: 'Smoke test was expecting a different number of pages to test. '
+            'Please make sure you visit all the pages above.');
   });
 }
 

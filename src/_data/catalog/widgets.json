@@ -7,7 +7,7 @@
       "Touch interactions"
     ],
     "link": "https://api.flutter.dev/flutter/widgets/AbsorbPointer-class.html",
-    "image": "<img alt='' src='/images/catalog-widget-placeholder.png'>"
+    "image": "<img alt='' src='/assets/images/docs/catalog-widget-placeholder.png'>"
   },
   {
     "name": "AlertDialog",
@@ -17,7 +17,7 @@
       "Dialogs, alerts, and panels"
     ],
     "link": "https://api.flutter.dev/flutter/material/AlertDialog-class.html",
-    "image": "<img alt='' src='https://material-design.storage.googleapis.com/publish/material_v_9/0Bzhp5Z4wHba3TzFHYVlrbWF2bnM/components_alerts_1.png'>"
+    "image": "<img alt='' src='/assets/images/docs/widget-catalog/material-alert-dialog.png'>"
   },
   {
     "name": "Align",
@@ -30,14 +30,24 @@
     "image": "<svg viewBox='0 0 100 100'><defs><marker id='arrow-align' orient='auto-start-reverse' viewBox='0 0 1 1' markerWidth='3' markerHeight='3' refX='0.5' refY='0.5'><path d='M 1 0.5 L 0.5 0 L 0.5 1 z' fill='#f50057'/></marker></defs><rect x='0' y='0' width='100' height='100' fill='#3949ab'/><rect x='10' y='20' width='80' height='60' fill='#ffffff'/><rect x='15' y='50' width='50' height='30' fill='#4dd0e1'/><line x1='10' y1='65' x2='12' y2='65' stroke='#f50057' stroke-width='2' marker-end='url(#arrow-align)'/><line x1='90' y1='65' x2='68' y2='65' stroke='#f50057' stroke-width='2' marker-end='url(#arrow-align)'/><line x1='40' y1='20' x2='40' y2='47' stroke='#f50057' stroke-width='2' marker-end='url(#arrow-align)'/></svg>"
   },
   {
+    "name": "AnimatedAlign",
+    "description": "Animated transition that moves the child's position over a given duration whenever the given alignment changes.",
+    "categories": [
+      "Animation and Motion"
+    ],
+    "subcategories": [],
+    "link": "https://api.flutter.dev/flutter/widgets/AnimatedAlign-class.html",
+    "image": "<img alt='' src='/assets/images/docs/catalog-widget-placeholder.png'>"
+  },
+  {
     "name": "AnimatedBuilder",
-    "description": "A general-purpose widget for building animations. AnimatedBuilder is useful for more complex widgets that wish to include an animation as part of a larger build function. To use AnimatedBuilder, simply construct the widget and pass it a builder function.",
+    "description": "A general-purpose widget for building animations. AnimatedBuilder is useful for more complex widgets that wish to include animation as part of a larger build function. To use AnimatedBuilder, simply construct the widget and pass it a builder function.",
     "categories": [
       "Animation and Motion"
     ],
     "subcategories": [],
     "link": "https://api.flutter.dev/flutter/widgets/AnimatedBuilder-class.html",
-    "image": "<img alt='' src='/images/catalog-widget-placeholder.png'>"
+    "image": "<img alt='' src='/assets/images/docs/catalog-widget-placeholder.png'>"
   },
   {
     "name": "AnimatedContainer",
@@ -47,7 +57,7 @@
     ],
     "subcategories": [],
     "link": "https://api.flutter.dev/flutter/widgets/AnimatedContainer-class.html",
-    "image": "<img alt='' src='/images/catalog-widget-placeholder.png'>"
+    "image": "<img alt='' src='/assets/images/docs/catalog-widget-placeholder.png'>"
   },
   {
     "name": "AnimatedCrossFade",
@@ -57,7 +67,7 @@
     ],
     "subcategories": [],
     "link": "https://api.flutter.dev/flutter/widgets/AnimatedCrossFade-class.html",
-    "image": "<img alt='' src='/images/catalog-widget-placeholder.png'>"
+    "image": "<img alt='' src='/assets/images/docs/catalog-widget-placeholder.png'>"
   },
   {
     "name": "AnimatedDefaultTextStyle",
@@ -67,18 +77,27 @@
     ],
     "subcategories": [],
     "link": "https://api.flutter.dev/flutter/widgets/AnimatedDefaultTextStyle-class.html",
-    "image": "<img alt='' src='/images/catalog-widget-placeholder.png'>"
+    "image": "<img alt='' src='/assets/images/docs/catalog-widget-placeholder.png'>"
+  },
+  {
+    "name": "AnimatedList",
+    "description": "A scrolling container that animates items when they are inserted or removed.",
+    "categories": [
+      "Animation and Motion"
+    ],
+    "subcategories": [],
+    "link": "https://api.flutter.dev/flutter/widgets/AnimatedList-class.html",
+    "image": "<img alt='' src='/assets/images/docs/catalog-widget-placeholder.png'>"
   },
   {
     "name": "AnimatedListState",
-    "sample": "AnimatedListState",
     "description": "The state for a scrolling container that animates items when they are inserted or removed.",
     "categories": [
       "Animation and Motion"
     ],
     "subcategories": [],
     "link": "https://api.flutter.dev/flutter/widgets/AnimatedListState-class.html",
-    "image": "<img alt='' src='/images/catalog-widget-placeholder.png'>"
+    "image": "<img alt='' src='/assets/images/docs/catalog-widget-placeholder.png'>"
   },
   {
     "name": "AnimatedModalBarrier",
@@ -88,7 +107,7 @@
     ],
     "subcategories": [],
     "link": "https://api.flutter.dev/flutter/widgets/AnimatedModalBarrier-class.html",
-    "image": "<img alt='' src='/images/catalog-widget-placeholder.png'>"
+    "image": "<img alt='' src='/assets/images/docs/catalog-widget-placeholder.png'>"
   },
   {
     "name": "AnimatedOpacity",
@@ -98,7 +117,7 @@
     ],
     "subcategories": [],
     "link": "https://api.flutter.dev/flutter/widgets/AnimatedOpacity-class.html",
-    "image": "<img alt='' src='/images/catalog-widget-placeholder.png'>"
+    "image": "<img alt='' src='/assets/images/docs/catalog-widget-placeholder.png'>"
   },
   {
     "name": "AnimatedPhysicalModel",
@@ -108,7 +127,7 @@
     ],
     "subcategories": [],
     "link": "https://api.flutter.dev/flutter/widgets/AnimatedPhysicalModel-class.html",
-    "image": "<img alt='' src='/images/catalog-widget-placeholder.png'>"
+    "image": "<img alt='' src='/assets/images/docs/catalog-widget-placeholder.png'>"
   },
   {
     "name": "AnimatedPositioned",
@@ -118,7 +137,7 @@
     ],
     "subcategories": [],
     "link": "https://api.flutter.dev/flutter/widgets/AnimatedPositioned-class.html",
-    "image": "<img alt='' src='/images/catalog-widget-placeholder.png'>"
+    "image": "<img alt='' src='/assets/images/docs/catalog-widget-placeholder.png'>"
   },
   {
     "name": "AnimatedSize",
@@ -128,7 +147,7 @@
     ],
     "subcategories": [],
     "link": "https://api.flutter.dev/flutter/widgets/AnimatedSize-class.html",
-    "image": "<img alt='' src='/images/catalog-widget-placeholder.png'>"
+    "image": "<img alt='' src='/assets/images/docs/catalog-widget-placeholder.png'>"
   },
   {
     "name": "AnimatedWidget",
@@ -138,7 +157,7 @@
     ],
     "subcategories": [],
     "link": "https://api.flutter.dev/flutter/widgets/AnimatedWidget-class.html",
-    "image": "<img alt='' src='/images/catalog-widget-placeholder.png'>"
+    "image": "<img alt='' src='/assets/images/docs/catalog-widget-placeholder.png'>"
   },
   {
     "name": "AnimatedWidgetBaseState",
@@ -148,12 +167,22 @@
     ],
     "subcategories": [],
     "link": "https://api.flutter.dev/flutter/widgets/AnimatedWidgetBaseState-class.html",
-    "image": "<img alt='' src='/images/catalog-widget-placeholder.png'>"
+    "image": "<img alt='' src='/assets/images/docs/catalog-widget-placeholder.png'>"
   },
   {
-    "name": "Appbar",
-    "sample": "AppBar",
-    "description": "A Material Design app bar. An app bar consists of a toolbar and potentially other widgets, such as a TabBar and a FlexibleSpaceBar.",
+    "name": "App bar",
+    "description": "Container that displays content and actions at the top of a screen.",
+    "categories": [],
+    "subcategories": [
+      "Navigation"
+    ],
+    "link": "https://api.flutter.dev/flutter/material/AppBar-class.html",
+    "image": "<img alt='' src='/assets/images/docs/widget-catalog/material-3-top-app-bar.png'>",
+    "hoverimage": "<img alt='' src='/assets/images/docs/widget-catalog/material-3-bubbles.png'>"
+  },
+  {
+    "name": "AppBar",
+    "description": "A toolbar that might contain other widgets such as a `TabBar` and a `FlexibleSpaceBar`.",
     "categories": [
       "Basics"
     ],
@@ -161,7 +190,7 @@
       "App structure and navigation"
     ],
     "link": "https://api.flutter.dev/flutter/material/AppBar-class.html",
-    "image": "<img alt='' src='https://material-design.storage.googleapis.com/publish/material_v_9/0B7WCemMG6e0VclpfSFpuelBGR1k/components_toolbars.png'>"
+    "image": "<img alt='' src='/assets/images/docs/widget-catalog/material-app-bar.png'>"
   },
   {
     "name": "AspectRatio",
@@ -181,21 +210,42 @@
     ],
     "subcategories": [],
     "link": "https://api.flutter.dev/flutter/services/AssetBundle-class.html",
-    "image": "<img alt='' src='/images/catalog-widget-placeholder.png'>"
+    "image": "<img alt='' src='/assets/images/docs/catalog-widget-placeholder.png'>"
+  },
+  {
+    "name": "Autocomplete",
+    "description": "A widget for helping the user make a selection by entering some text and choosing from among a list of options.",
+    "categories": [
+      "Input"
+    ],
+    "subcategories": [],
+    "link": "https://api.flutter.dev/flutter/material/Autocomplete-class.html",
+    "image": "<img alt='' src='/assets/images/docs/catalog-widget-placeholder.png'>"
   },
   {
     "name": "BackdropFilter",
-    "description": "A widget that applies a filter to the existing painted content and then paints child. This effect is relatively expensive, especially if the filter is non-local, such as a blur.",
+    "description": "A widget that applies a filter to the existing painted content and then paints a child. This effect is relatively expensive, especially if the filter is non-local, such as a blur.",
     "categories": [
       "Painting and effects"
     ],
     "subcategories": [],
     "link": "https://api.flutter.dev/flutter/widgets/BackdropFilter-class.html",
-    "image": "<img alt='' src='/images/catalog-widget-placeholder.png'>"
+    "image": "<img alt='' src='/assets/images/docs/catalog-widget-placeholder.png'>"
+  },
+  {
+    "name": "Badge",
+    "description": "Icon-like block that conveys dynamic content such as counts or status. It can include labels or numbers.",
+    "categories": [],
+    "subcategories": [
+      "Communication"
+    ],
+    "link": "https://api.flutter.dev/flutter/material/Badge-class.html",
+    "image": "<img alt='' src='/assets/images/docs/widget-catalog/material-3-badge.png'>",
+    "hoverimage": "<img alt='' src='/assets/images/docs/widget-catalog/material-3-coral.png'>"
   },
   {
     "name": "Baseline",
-    "description": "A widget that positions its child according to the child's baseline.",
+    "description": "Container that positions its child according to the child's baseline.",
     "categories": [],
     "subcategories": [
       "Single-child layout widgets"
@@ -204,14 +254,36 @@
     "image": "<svg viewBox='0 0 100 100'><defs><marker id='arrow-baseline' orient='auto-start-reverse' viewBox='0 0 1 1' markerWidth='3' markerHeight='3' refX='0.5' refY='0.5'><path d='M 1 0.5 L 0.5 0 L 0.5 1 z' fill='#ffffff'/></marker></defs><rect x='0' y='0' width='100' height='100' fill='#3949ab'/><rect x='20' y='20' width='60' height='50' fill='#ffffff'/><rect x='20' y='45' width='60' height='30' fill='#4dd0e1'/><line x1='85' y1='20' x2='85' y2='66' stroke='#ffffff' stroke-width='2' marker-end='url(#arrow-baseline)'/><line x1='15' y1='20' x2='15' y2='66' stroke='#ffffff' stroke-width='2' marker-end='url(#arrow-baseline)'/><line x1='10' y1='70' x2='90' y2='70' stroke='#ffffff' stroke-width='2'/><text x='50' y='69' text-anchor='middle' font-family='Roboto' font-size='25' fill='#3b75ad'>Abc </text></svg>"
   },
   {
+    "name": "Bottom app bar",
+    "description": "Container that displays navigation and key actions at the bottom of a screen.",
+    "categories": [],
+    "subcategories": [
+      "Navigation"
+    ],
+    "link": "https://api.flutter.dev/flutter/material/BottomAppBar-class.html",
+    "image": "<img alt='' src='/assets/images/docs/widget-catalog/material-3-bottom-app-bar.png'>",
+    "hoverimage": "<img alt='' src='/assets/images/docs/widget-catalog/material-3-bubbles.png'>"
+  },
+  {
+    "name": "Bottom sheet",
+    "description": "Containers that anchor supplementary content to the bottom of the screen.",
+    "categories": [],
+    "subcategories": [
+      "Containment"
+    ],
+    "link": "https://api.flutter.dev/flutter/material/BottomSheet-class.html",
+    "image": "<img alt='' src='/assets/images/docs/widget-catalog/material-3-bottom-sheet.png'>",
+    "hoverimage": "<img alt='' src='/assets/images/docs/widget-catalog/material-3-coral.png'>"
+  },
+  {
     "name": "BottomNavigationBar",
-    "description": "Bottom navigation bars make it easy to explore and switch between top-level views in a single tap. The BottomNavigationBar widget implements this component.",
+    "description": "Container that includes tools to explore and switch between top-level views in a single tap.",
     "categories": [],
     "subcategories": [
       "App structure and navigation"
     ],
     "link": "https://api.flutter.dev/flutter/material/BottomNavigationBar-class.html",
-    "image": "<img alt='' src='https://material-design.storage.googleapis.com/publish/material_v_9/0B7WCemMG6e0VWG5nei0wWXpoczA/components_bottom_navigation.png'>"
+    "image": "<img alt='' src='/assets/images/docs/widget-catalog/material-bottom-navigation-bar.png'>"
   },
   {
     "name": "BottomSheet",
@@ -221,17 +293,7 @@
       "Dialogs, alerts, and panels"
     ],
     "link": "https://api.flutter.dev/flutter/material/BottomSheet-class.html",
-    "image": "<img alt='' src='https://material-design.storage.googleapis.com/publish/material_v_9/0B7WCemMG6e0VVWZzZ1FIN09XWGc/components_bottom_sheets.png'>"
-  },
-  {
-    "name": "ButtonBar",
-    "description": "A horizontal arrangement of buttons.",
-    "categories": [],
-    "subcategories": [
-      "Buttons"
-    ],
-    "link": "https://api.flutter.dev/flutter/material/ButtonBar-class.html",
-    "image": "<img alt='' src='/images/catalog-widget-placeholder.png'>"
+    "image": "<img alt='' src='/assets/images/docs/widget-catalog/material-bottom-sheets.png'>"
   },
   {
     "name": "Card",
@@ -241,11 +303,22 @@
       "Information displays"
     ],
     "link": "https://api.flutter.dev/flutter/material/Card-class.html",
-    "image": "<img alt='' src='https://material-design.storage.googleapis.com/publish/material_v_9/0B7WCemMG6e0VR0ptbC1RV1NLNlk/components_cards.png'>"
+    "image": "<img alt='' src='/assets/images/docs/widget-catalog/material-card.png'>"
+  },
+  {
+    "name": "Card",
+    "description": "Container for short, related pieces of content displayed in a box with rounded corners and a drop shadow.",
+    "categories": [],
+    "subcategories": [
+      "Containment"
+    ],
+    "link": "https://api.flutter.dev/flutter/material/Card-class.html",
+    "image": "<img alt='' src='/assets/images/docs/widget-catalog/material-3-card.png'>",
+    "hoverimage": "<img alt='' src='/assets/images/docs/widget-catalog/material-3-coral.png'>"
   },
   {
     "name": "Center",
-    "description": "A widget that centers its child within itself.",
+    "description": "Alignment block that centers its child within itself.",
     "categories": [],
     "subcategories": [
       "Single-child layout widgets"
@@ -261,27 +334,49 @@
       "Input and selections"
     ],
     "link": "https://api.flutter.dev/flutter/material/Checkbox-class.html",
-    "image": "<img alt='' src='https://storage.googleapis.com/material-design/publish/material_v_9/0Bx4BSt6jniD7T2xGbGo0cUlPVG8/components_switches_check1.png'>"
+    "image": "<img alt='' src='/assets/images/docs/widget-catalog/material-checkbox.png'>"
+  },
+  {
+    "name": "Checkbox",
+    "description": "Form control that app users can select or clear to select one or more options from a set. Select the option to enable it or clear it to disable it.",
+    "categories": [],
+    "subcategories": [
+      "Selection"
+    ],
+    "link": "https://api.flutter.dev/flutter/material/Checkbox-class.html",
+    "image": "<img alt='' src='/assets/images/docs/widget-catalog/material-3-checkbox.png'>",
+    "hoverimage": "<img alt='' src='/assets/images/docs/widget-catalog/material-3-leaves.png'>"
   },
   {
     "name": "Chip",
-    "description": "A Material Design chip. Chips represent complex entities in small blocks, such as a contact.",
+    "description": "Small blocks that represent complex entities such as a contact.",
     "categories": [],
     "subcategories": [
       "Information displays"
     ],
     "link": "https://api.flutter.dev/flutter/material/Chip-class.html",
-    "image": "<img alt='' src='https://material-design.storage.googleapis.com/publish/material_v_9/0B7WCemMG6e0VM1VORGxxWUx5U0E/components_chips.png'>"
+    "image": "<img alt='' src='/assets/images/docs/widget-catalog/material-chip.png'>"
+  },
+  {
+    "name": "Chip",
+    "description": "Small blocks that simplify entering information, making selections, filtering content, or triggering actions.",
+    "categories": [],
+    "subcategories": [
+      "Selection"
+    ],
+    "link": "https://api.flutter.dev/flutter/material/Chip-class.html",
+    "image": "<img alt='' src='/assets/images/docs/widget-catalog/material-3-chip.png'>",
+    "hoverimage": "<img alt='' src='/assets/images/docs/widget-catalog/material-3-leaves.png'>"
   },
   {
     "name": "CircularProgressIndicator",
-    "description": "A material design circular progress indicator, which spins to indicate that the application is busy.",
+    "description": "Circular progress indicator that spins to indicate a busy application.",
     "categories": [],
     "subcategories": [
       "Information displays"
     ],
     "link": "https://api.flutter.dev/flutter/material/CircularProgressIndicator-class.html",
-    "image": "<img alt='' src='/images/catalog-widget-placeholder.png'>"
+    "image": "<img alt='' src='/assets/images/docs/widget-catalog/material-circular-progress-indicator.png'>"
   },
   {
     "name": "ClipOval",
@@ -301,7 +396,7 @@
     ],
     "subcategories": [],
     "link": "https://api.flutter.dev/flutter/widgets/ClipPath-class.html",
-    "image": "<img alt='' src='/images/catalog-widget-placeholder.png'>"
+    "image": "<img alt='' src='/assets/images/docs/catalog-widget-placeholder.png'>"
   },
   {
     "name": "ClipRect",
@@ -324,6 +419,17 @@
     ],
     "link": "https://api.flutter.dev/flutter/widgets/Column-class.html",
     "image": "<svg viewBox='0 0 100 100'><rect x='0' y='0' width='100' height='100' fill='#3949ab'/><rect x='30' y='10' width='40' height='80' fill='#ffffff'/><rect x='40' y='15' width='20' height='20' fill='#4dd0e1'/><rect x='35' y='40' width='30' height='30' fill='#4dd0e1'/></svg>"
+  },
+  {
+    "name": "Common buttons",
+    "description": "Clickable blocks that start an action, such as sending an email, sharing a document, or liking a comment.",
+    "categories": [],
+    "subcategories": [
+      "Actions"
+    ],
+    "link": "https://api.flutter.dev/flutter/material/ButtonStyle-class.html#material-3-button-types",
+    "image": "<img class='m3-img' alt='' src='/assets/images/docs/widget-catalog/material-3-buttons.png'>",
+    "hoverimage": "<img alt='' src='/assets/images/docs/widget-catalog/material-3-leaves.png'>"
   },
   {
     "name": "ConstrainedBox",
@@ -355,7 +461,7 @@
     ],
     "subcategories": [],
     "link": "https://api.flutter.dev/flutter/cupertino/CupertinoActionSheet-class.html",
-    "image": "<img alt='' src='/images/widget-catalog/cupertino-action-sheet.png'>"
+    "image": "<img alt='' src='/assets/images/docs/widget-catalog/cupertino-action-sheet.png'>"
   },
   {
     "name": "CupertinoActivityIndicator",
@@ -365,7 +471,7 @@
     ],
     "subcategories": [],
     "link": "https://api.flutter.dev/flutter/cupertino/CupertinoActivityIndicator-class.html",
-    "image": "<img alt='' src='/images/widget-catalog/cupertino-activity-indicator.png'>"
+    "image": "<img alt='' src='/assets/images/docs/widget-catalog/cupertino-activity-indicator.png'>"
   },
   {
     "name": "CupertinoAlertDialog",
@@ -375,7 +481,7 @@
     ],
     "subcategories": [],
     "link": "https://api.flutter.dev/flutter/cupertino/CupertinoAlertDialog-class.html",
-    "image": "<img alt='' src='/images/widget-catalog/cupertino-alert-dialog.png'>"
+    "image": "<img alt='' src='/assets/images/docs/widget-catalog/cupertino-alert-dialog.png'>"
   },
   {
     "name": "CupertinoButton",
@@ -385,7 +491,17 @@
     ],
     "subcategories": [],
     "link": "https://api.flutter.dev/flutter/cupertino/CupertinoButton-class.html",
-    "image": "<img alt='' src='/images/widget-catalog/cupertino-button.png'>"
+    "image": "<img alt='' src='/assets/images/docs/widget-catalog/cupertino-button.png'>"
+  },
+  {
+    "name": "CupertinoContextMenu",
+    "description": "An iOS-style full-screen modal route that opens when the child is long-pressed. Used to display relevant actions for your content.",
+    "categories": [
+      "Cupertino (iOS-style widgets)"
+    ],
+    "subcategories": [],
+    "link": "https://api.flutter.dev/flutter/cupertino/CupertinoContextMenu-class.html",
+    "image": "<img alt='' src='/assets/images/docs/widget-catalog/cupertino-context-menu.png'>"
   },
   {
     "name": "CupertinoDatePicker",
@@ -395,17 +511,7 @@
     ],
     "subcategories": [],
     "link": "https://api.flutter.dev/flutter/cupertino/CupertinoDatePicker-class.html",
-    "image": "<img alt='' src='/images/widget-catalog/cupertino-date-picker.png'>"
-  },
-  {
-    "name": "CupertinoDialog",
-    "description": "An iOS-style dialog.",
-    "categories": [
-      "Cupertino (iOS-style widgets)"
-    ],
-    "subcategories": [],
-    "link": "https://api.flutter.dev/flutter/cupertino/CupertinoDialog-class.html",
-    "image": "<img alt='' src='/images/widget-catalog/cupertino-dialog.png'>"
+    "image": "<img alt='' src='/assets/images/docs/widget-catalog/cupertino-date-picker.png'>"
   },
   {
     "name": "CupertinoDialogAction",
@@ -415,7 +521,7 @@
     ],
     "subcategories": [],
     "link": "https://api.flutter.dev/flutter/cupertino/CupertinoDialogAction-class.html",
-    "image": "<img alt='' src='/images/widget-catalog/cupertino-dialog-action.png'>"
+    "image": "<img alt='' src='/assets/images/docs/widget-catalog/cupertino-dialog-action.png'>"
   },
   {
     "name": "CupertinoFullscreenDialogTransition",
@@ -425,17 +531,37 @@
     ],
     "subcategories": [],
     "link": "https://api.flutter.dev/flutter/cupertino/CupertinoFullscreenDialogTransition-class.html",
-    "image": "<img alt='' src='/images/widget-catalog/cupertino-fullscreen-dialog-transition.png'>"
+    "image": "<img alt='' src='/assets/images/docs/widget-catalog/cupertino-fullscreen-dialog-transition.png'>"
+  },
+  {
+    "name": "CupertinoListSection",
+    "description": "Container that uses the iOS style to display a scrollable view.",
+    "categories": [
+      "Cupertino (iOS-style widgets)"
+    ],
+    "subcategories": [],
+    "link": "https://api.flutter.dev/flutter/cupertino/CupertinoListSection-class.html",
+    "image": "<img alt='' src='/assets/images/docs/widget-catalog/cupertino-list-section.png'>"
+  },
+  {
+    "name": "CupertinoListTile",
+    "description": "A block that uses the iOS style to create a row in a list.",
+    "categories": [
+      "Cupertino (iOS-style widgets)"
+    ],
+    "subcategories": [],
+    "link": "https://api.flutter.dev/flutter/cupertino/CupertinoListTile-class.html",
+    "image": "<img alt='' src='/assets/images/docs/widget-catalog/cupertino-list-tile.png'>"
   },
   {
     "name": "CupertinoNavigationBar",
-    "description": "An iOS-style top navigation bar. Typically used with CupertinoPageScaffold.",
+    "description": "Container at the top of a screen that uses the iOS style. Many developers use this with `CupertinoPageScaffold`.",
     "categories": [
       "Cupertino (iOS-style widgets)"
     ],
     "subcategories": [],
     "link": "https://api.flutter.dev/flutter/cupertino/CupertinoNavigationBar-class.html",
-    "image": "<img alt='' src='/images/widget-catalog/cupertino-nav-bar.png'>"
+    "image": "<img alt='' src='/assets/images/docs/widget-catalog/cupertino-nav-bar.png'>"
   },
   {
     "name": "CupertinoPageScaffold",
@@ -445,7 +571,7 @@
     ],
     "subcategories": [],
     "link": "https://api.flutter.dev/flutter/cupertino/CupertinoPageScaffold-class.html",
-    "image": "<img alt='' src='/images/widget-catalog/cupertino-page-scaffold.png'>"
+    "image": "<img alt='' src='/assets/images/docs/widget-catalog/cupertino-page-scaffold.png'>"
   },
   {
     "name": "CupertinoPageTransition",
@@ -455,7 +581,7 @@
     ],
     "subcategories": [],
     "link": "https://api.flutter.dev/flutter/cupertino/CupertinoPageTransition-class.html",
-    "image": "<img alt='' src='/images/widget-catalog/cupertino-page-transition.png'>"
+    "image": "<img alt='' src='/assets/images/docs/widget-catalog/cupertino-page-transition.png'>"
   },
   {
     "name": "CupertinoPicker",
@@ -465,7 +591,7 @@
     ],
     "subcategories": [],
     "link": "https://api.flutter.dev/flutter/cupertino/CupertinoPicker-class.html",
-    "image": "<img alt='' src='/images/widget-catalog/cupertino-picker.png'>"
+    "image": "<img alt='' src='/assets/images/docs/widget-catalog/cupertino-picker.png'>"
   },
   {
     "name": "CupertinoPopupSurface",
@@ -475,7 +601,7 @@
     ],
     "subcategories": [],
     "link": "https://api.flutter.dev/flutter/cupertino/CupertinoPopupSurface-class.html",
-    "image": "<img alt='' src='/images/catalog-widget-placeholder.png'>"
+    "image": "<img alt='' src='/assets/images/docs/catalog-widget-placeholder.png'>"
   },
   {
     "name": "CupertinoScrollbar",
@@ -485,7 +611,17 @@
     ],
     "subcategories": [],
     "link": "https://api.flutter.dev/flutter/cupertino/CupertinoScrollbar-class.html",
-    "image": "<img alt='' src='/images/widget-catalog/cupertino-scrollbar.png'>"
+    "image": "<img alt='' src='/assets/images/docs/widget-catalog/cupertino-scrollbar.png'>"
+  },
+  {
+    "name": "CupertinoSearchTextField",
+    "description": "An iOS-style search field.",
+    "categories": [
+      "Cupertino (iOS-style widgets)"
+    ],
+    "subcategories": [],
+    "link": "https://api.flutter.dev/flutter/cupertino/CupertinoSearchTextField-class.html",
+    "image": "<img alt='' src='/assets/images/docs/widget-catalog/cupertino-search-field.png'>"
   },
   {
     "name": "CupertinoSegmentedControl",
@@ -495,7 +631,7 @@
     ],
     "subcategories": [],
     "link": "https://api.flutter.dev/flutter/cupertino/CupertinoSegmentedControl-class.html",
-    "image": "<img alt='' src='/images/widget-catalog/cupertino-segmented-control.png'>"
+    "image": "<img alt='' src='/assets/images/docs/widget-catalog/cupertino-segmented-control.png'>"
   },
   {
     "name": "CupertinoSlider",
@@ -505,7 +641,29 @@
     ],
     "subcategories": [],
     "link": "https://api.flutter.dev/flutter/cupertino/CupertinoSlider-class.html",
-    "image": "<img alt='' src='/images/widget-catalog/cupertino-slider.png'>"
+    "image": "<img alt='' src='/assets/images/docs/widget-catalog/cupertino-slider.png'>"
+  },
+  {
+    "name": "CupertinoSlidingSegmentedControl",
+    "description": "An iOS-13-style segmented control. Used to select mutually exclusive options in a horizontal list.",
+    "categories": [
+      "Cupertino (iOS-style widgets)"
+    ],
+    "subcategories": [],
+    "link": "https://api.flutter.dev/flutter/cupertino/CupertinoSlidingSegmentedControl-class.html",
+    "image": "<img alt='' src='/assets/images/docs/widget-catalog/cupertino-sliding-segmented-control.png'>"
+  },
+  {
+    "name": "CupertinoSliverNavigationBar",
+    "description": "An iOS-styled navigation bar with iOS-11-style large titles using slivers.",
+    "categories": [
+      "Cupertino (iOS-style widgets)"
+    ],
+    "subcategories": [
+      "Sliver widgets"
+    ],
+    "link": "https://api.flutter.dev/flutter/cupertino/CupertinoSliverNavigationBar-class.html",
+    "image": "<img alt='' src='/assets/images/docs/widget-catalog/cupertino-sliver-navigation-bar.png'>"
   },
   {
     "name": "CupertinoSwitch",
@@ -515,7 +673,7 @@
     ],
     "subcategories": [],
     "link": "https://api.flutter.dev/flutter/cupertino/CupertinoSwitch-class.html",
-    "image": "<img alt='' src='/images/widget-catalog/cupertino-switch.png'>"
+    "image": "<img alt='' src='/assets/images/docs/widget-catalog/cupertino-switch.png'>"
   },
   {
     "name": "CupertinoTabBar",
@@ -525,7 +683,7 @@
     ],
     "subcategories": [],
     "link": "https://api.flutter.dev/flutter/cupertino/CupertinoTabBar-class.html",
-    "image": "<img alt='' src='/images/widget-catalog/cupertino-tab-bar.png'>"
+    "image": "<img alt='' src='/assets/images/docs/widget-catalog/cupertino-tab-bar.png'>"
   },
   {
     "name": "CupertinoTabScaffold",
@@ -535,7 +693,7 @@
     ],
     "subcategories": [],
     "link": "https://api.flutter.dev/flutter/cupertino/CupertinoTabScaffold-class.html",
-    "image": "<img alt='' src='/images/widget-catalog/cupertino-tab-scaffold.png'>"
+    "image": "<img alt='' src='/assets/images/docs/widget-catalog/cupertino-tab-scaffold.png'>"
   },
   {
     "name": "CupertinoTabView",
@@ -545,7 +703,7 @@
     ],
     "subcategories": [],
     "link": "https://api.flutter.dev/flutter/cupertino/CupertinoTabView-class.html",
-    "image": "<img alt='' src='/images/widget-catalog/cupertino-tab-view.png'>"
+    "image": "<img alt='' src='/assets/images/docs/widget-catalog/cupertino-tab-view.png'>"
   },
   {
     "name": "CupertinoTextField",
@@ -555,7 +713,7 @@
     ],
     "subcategories": [],
     "link": "https://api.flutter.dev/flutter/cupertino/CupertinoTextField-class.html",
-    "image": "<img alt='' src='/images/widget-catalog/cupertino-textfield.png'>"
+    "image": "<img alt='' src='/assets/images/docs/widget-catalog/cupertino-textfield.png'>"
   },
   {
     "name": "CupertinoTimerPicker",
@@ -565,7 +723,7 @@
     ],
     "subcategories": [],
     "link": "https://api.flutter.dev/flutter/cupertino/CupertinoTimerPicker-class.html",
-    "image": "<img alt='' src='/images/widget-catalog/cupertino-timer-picker.png'>"
+    "image": "<img alt='' src='/assets/images/docs/widget-catalog/cupertino-timer-picker.png'>"
   },
   {
     "name": "CustomMultiChildLayout",
@@ -575,7 +733,7 @@
       "Multi-child layout widgets"
     ],
     "link": "https://api.flutter.dev/flutter/widgets/CustomMultiChildLayout-class.html",
-    "image": "<img alt='' src='/images/catalog-widget-placeholder.png'>"
+    "image": "<img alt='' src='/assets/images/docs/catalog-widget-placeholder.png'>"
   },
   {
     "name": "CustomPaint",
@@ -593,9 +751,11 @@
     "categories": [
       "Scrolling"
     ],
-    "subcategories": [],
+    "subcategories": [
+      "Sliver widgets"
+    ],
     "link": "https://api.flutter.dev/flutter/widgets/CustomScrollView-class.html",
-    "image": "<img alt='' src='/images/catalog-widget-placeholder.png'>"
+    "image": "<img alt='' src='/assets/images/docs/catalog-widget-placeholder.png'>"
   },
   {
     "name": "CustomSingleChildLayout",
@@ -605,7 +765,7 @@
       "Single-child layout widgets"
     ],
     "link": "https://api.flutter.dev/flutter/widgets/CustomSingleChildLayout-class.html",
-    "image": "<img alt='' src='/images/catalog-widget-placeholder.png'>"
+    "image": "<img alt='' src='/assets/images/docs/catalog-widget-placeholder.png'>"
   },
   {
     "name": "DataTable",
@@ -615,7 +775,7 @@
       "Information displays"
     ],
     "link": "https://api.flutter.dev/flutter/material/DataTable-class.html",
-    "image": "<img alt='' src='https://material-design.storage.googleapis.com/publish/material_v_9/0B7WCemMG6e0VWTJHMmJZdWZ5LU0/components_data_tables.png'>"
+    "image": "<img alt='' src='/assets/images/docs/widget-catalog/material-data-table.png'>"
   },
   {
     "name": "Date & Time Pickers",
@@ -626,6 +786,17 @@
     ],
     "link": "https://api.flutter.dev/flutter/material/showDatePicker.html",
     "image": "<img alt='' src='https://material-design.storage.googleapis.com/publish/material_v_9/0B7WCemMG6e0VY2h4WElGdEhPb2c/components_pickers.png'>"
+  },
+  {
+    "name": "Date picker",
+    "description": "Calendar interface used to select a date or a range of dates.",
+    "categories": [],
+    "subcategories": [
+      "Selection"
+    ],
+    "link": "https://api.flutter.dev/flutter/material/showDatePicker.html",
+    "image": "<img alt='' src='/assets/images/docs/widget-catalog/material-3-date-picker.png'>",
+    "hoverimage": "<img alt='' src='/assets/images/docs/widget-catalog/material-3-leaves.png'>"
   },
   {
     "name": "DecoratedBox",
@@ -645,7 +816,7 @@
     ],
     "subcategories": [],
     "link": "https://api.flutter.dev/flutter/widgets/DecoratedBoxTransition-class.html",
-    "image": "<img alt='' src='/images/catalog-widget-placeholder.png'>"
+    "image": "<img alt='' src='/assets/images/docs/catalog-widget-placeholder.png'>"
   },
   {
     "name": "DefaultTextStyle",
@@ -655,7 +826,18 @@
     ],
     "subcategories": [],
     "link": "https://api.flutter.dev/flutter/widgets/DefaultTextStyle-class.html",
-    "image": "<img alt='' src='/images/catalog-widget-placeholder.png'>"
+    "image": "<img alt='' src='/assets/images/docs/catalog-widget-placeholder.png'>"
+  },
+  {
+    "name": "Dialog",
+    "description": "Hovering containers that prompt app users to provide more data or make a decision.",
+    "categories": [],
+    "subcategories": [
+      "Containment"
+    ],
+    "link": "https://api.flutter.dev/flutter/material/AlertDialog-class.html",
+    "image": "<img alt='' src='/assets/images/docs/widget-catalog/material-3-dialog.png'>",
+    "hoverimage": "<img alt='' src='/assets/images/docs/widget-catalog/material-3-coral.png'>"
   },
   {
     "name": "Dismissible",
@@ -665,7 +847,7 @@
       "Touch interactions"
     ],
     "link": "https://api.flutter.dev/flutter/widgets/Dismissible-class.html",
-    "image": "<img alt='' src='/images/catalog-widget-placeholder.png'>"
+    "image": "<img alt='' src='/assets/images/docs/catalog-widget-placeholder.png'>"
   },
   {
     "name": "Divider",
@@ -675,7 +857,18 @@
       "Layout"
     ],
     "link": "https://api.flutter.dev/flutter/material/Divider-class.html",
-    "image": "<img alt='' src='https://material-design.storage.googleapis.com/publish/material_v_9/0B7WCemMG6e0VUVlmbHM1Q013RU0/components_dividers.png'>"
+    "image": "<img alt='' src='/assets/images/docs/widget-catalog/material-divider.png'>"
+  },
+  {
+    "name": "Divider",
+    "description": "Thin line that groups content in lists and containers.",
+    "categories": [],
+    "subcategories": [
+      "Containment"
+    ],
+    "link": "https://api.flutter.dev/flutter/material/Divider-class.html",
+    "image": "<img alt='' src='/assets/images/docs/widget-catalog/material-3-divider.png'>",
+    "hoverimage": "<img alt='' src='/assets/images/docs/widget-catalog/material-3-coral.png'>"
   },
   {
     "name": "DragTarget",
@@ -685,7 +878,7 @@
       "Touch interactions"
     ],
     "link": "https://api.flutter.dev/flutter/widgets/DragTarget-class.html",
-    "image": "<img alt='' src='/images/catalog-widget-placeholder.png'>"
+    "image": "<img alt='' src='/assets/images/docs/catalog-widget-placeholder.png'>"
   },
   {
     "name": "Draggable",
@@ -695,7 +888,19 @@
       "Touch interactions"
     ],
     "link": "https://api.flutter.dev/flutter/widgets/Draggable-class.html",
-    "image": "<img alt='' src='/images/catalog-widget-placeholder.png'>"
+    "image": "<img alt='' src='/assets/images/docs/catalog-widget-placeholder.png'>"
+  },
+  {
+    "name": "DraggableScrollableSheet",
+    "description": "A container for a Scrollable that responds to drag gestures by resizing the scrollable until a limit is reached, and then scrolling.",
+    "categories": [
+      "Scrolling"
+    ],
+    "subcategories": [
+      "Touch interactions"
+    ],
+    "link": "https://api.flutter.dev/flutter/widgets/DraggableScrollableSheet-class.html",
+    "image": "<img alt='' src='/assets/images/docs/catalog-widget-placeholder.png'>"
   },
   {
     "name": "Drawer",
@@ -705,7 +910,7 @@
       "App structure and navigation"
     ],
     "link": "https://api.flutter.dev/flutter/material/Drawer-class.html",
-    "image": "<img alt='' src='https://storage.googleapis.com/material-design/publish/material_v_11/assets/0B7WCemMG6e0VaDhWUXJTTng4ZGs/patterns_navigation_drawer.png'>"
+    "image": "<img alt='' src='/assets/images/docs/widget-catalog/material-drawer.png'>"
   },
   {
     "name": "DropdownButton",
@@ -715,7 +920,19 @@
       "Buttons"
     ],
     "link": "https://api.flutter.dev/flutter/material/DropdownButton-class.html",
-    "image": "<img alt='' src='/images/catalog-widget-placeholder.png'>"
+    "image": "<img alt='' src='https://storage.googleapis.com/material-design/publish/material_v_11/assets/0B7WCemMG6e0VakJ6a0F2MFJaaDQ/components_menus.png'>"
+  },
+  {
+    "name": "ElevatedButton",
+    "description": "A Material Design elevated button. A filled button whose material elevates when pressed.",
+    "categories": [
+      "Basics"
+    ],
+    "subcategories": [
+      "Buttons"
+    ],
+    "link": "https://api.flutter.dev/flutter/material/ElevatedButton-class.html",
+    "image": "<img alt='' src='/assets/images/docs/widget-catalog/material-elevated-button.png'>"
   },
   {
     "name": "ExcludeSemantics",
@@ -725,17 +942,17 @@
     ],
     "subcategories": [],
     "link": "https://api.flutter.dev/flutter/widgets/ExcludeSemantics-class.html",
-    "image": "<img alt='' src='/images/catalog-widget-placeholder.png'>"
+    "image": "<img alt='' src='/assets/images/docs/catalog-widget-placeholder.png'>"
   },
   {
     "name": "Expanded",
     "categories": [],
     "subcategories": [
-      "Multi-child layout widgets"
+      "Single-child layout widgets"
     ],
     "description": "A widget that expands a child of a Row, Column, or Flex.",
     "link": "https://api.flutter.dev/flutter/widgets/Expanded-class.html",
-    "image": "<img alt='' src='/images/catalog-widget-placeholder.png'>"
+    "image": "<img alt='' src='/assets/images/docs/catalog-widget-placeholder.png'>"
   },
   {
     "name": "ExpansionPanel",
@@ -755,7 +972,7 @@
     ],
     "subcategories": [],
     "link": "https://api.flutter.dev/flutter/widgets/FadeTransition-class.html",
-    "image": "<img alt='' src='/images/catalog-widget-placeholder.png'>"
+    "image": "<img alt='' src='/assets/images/docs/catalog-widget-placeholder.png'>"
   },
   {
     "name": "FittedBox",
@@ -765,17 +982,18 @@
       "Single-child layout widgets"
     ],
     "link": "https://api.flutter.dev/flutter/widgets/FittedBox-class.html",
-    "image": "<img alt='' src='/images/catalog-widget-placeholder.png'>"
+    "image": "<img alt='' src='/assets/images/docs/catalog-widget-placeholder.png'>"
   },
   {
-    "name": "FlatButton",
-    "description": "A flat button is a section printed on a Material Components widget that reacts to touches by filling with color.",
+    "name": "FAB",
+    "description": "Clickable block that triggers a key action. This block contains an icon and floats in the app interface to keep the key action within reach.",
     "categories": [],
     "subcategories": [
-      "Buttons"
+      "Actions"
     ],
-    "link": "https://api.flutter.dev/flutter/material/FlatButton-class.html",
-    "image": "<img alt='' src='https://material-design.storage.googleapis.com/publish/material_v_9/0B7WCemMG6e0VNDg3V3ZjU2hsNGc/components_buttons_usage3.png'>"
+    "link": "https://api.flutter.dev/flutter/material/FloatingActionButton/FloatingActionButton.html",
+    "image": "<img alt='' src='/assets/images/docs/widget-catalog/material-3-floating-action-button.png'>",
+    "hoverimage": "<img alt='' src='/assets/images/docs/widget-catalog/material-3-leaves.png'>"
   },
   {
     "name": "FloatingActionButton",
@@ -785,7 +1003,18 @@
       "Buttons"
     ],
     "link": "https://api.flutter.dev/flutter/material/FloatingActionButton-class.html",
-    "image": "<img alt='' src='https://material-design.storage.googleapis.com/publish/material_v_9/0B7WCemMG6e0VN20tOXJoUjVxQjg/components_buttons_fab.png'>"
+    "image": "<img alt='' src='/assets/images/docs/widget-catalog/material-floating-action-button.png'>"
+  },
+  {
+    "name": "Extended FAB",
+    "description": "Clickable block that triggers an action. These wider blocks can fit a text label and provide a larger target area.",
+    "categories": [],
+    "subcategories": [
+      "Actions"
+    ],
+    "link": "https://api.flutter.dev/flutter/material/FloatingActionButton/FloatingActionButton.extended.html",
+    "image": "<img alt='' src='/assets/images/docs/widget-catalog/material-3-extended-fab.png'>",
+    "hoverimage": "<img alt='' src='/assets/images/docs/widget-catalog/material-3-leaves.png'>"
   },
   {
     "name": "Flow",
@@ -795,7 +1024,7 @@
       "Multi-child layout widgets"
     ],
     "link": "https://api.flutter.dev/flutter/widgets/Flow-class.html",
-    "image": "<img alt='' src='/images/catalog-widget-placeholder.png'>"
+    "image": "<img alt='' src='/assets/images/docs/catalog-widget-placeholder.png'>"
   },
   {
     "name": "FlutterLogo",
@@ -805,7 +1034,7 @@
     ],
     "subcategories": [],
     "link": "https://api.flutter.dev/flutter/material/FlutterLogo-class.html",
-    "image": "<img alt='' src='/images/catalog-widget-placeholder.png'>"
+    "image": "<img alt='' src='/assets/images/docs/catalog-widget-placeholder.png'>"
   },
   {
     "name": "Form",
@@ -815,7 +1044,7 @@
     ],
     "subcategories": [],
     "link": "https://api.flutter.dev/flutter/widgets/Form-class.html",
-    "image": "<img alt='' src='/images/catalog-widget-placeholder.png'>"
+    "image": "<img alt='' src='/assets/images/docs/catalog-widget-placeholder.png'>"
   },
   {
     "name": "FormField",
@@ -825,7 +1054,7 @@
     ],
     "subcategories": [],
     "link": "https://api.flutter.dev/flutter/widgets/FormField-class.html",
-    "image": "<img alt='' src='/images/catalog-widget-placeholder.png'>"
+    "image": "<img alt='' src='/assets/images/docs/catalog-widget-placeholder.png'>"
   },
   {
     "name": "FractionalTranslation",
@@ -835,7 +1064,7 @@
     ],
     "subcategories": [],
     "link": "https://api.flutter.dev/flutter/widgets/FractionalTranslation-class.html",
-    "image": "<img alt='' src='/images/catalog-widget-placeholder.png'>"
+    "image": "<img alt='' src='/assets/images/docs/catalog-widget-placeholder.png'>"
   },
   {
     "name": "FractionallySizedBox",
@@ -845,7 +1074,7 @@
       "Single-child layout widgets"
     ],
     "link": "https://api.flutter.dev/flutter/widgets/FractionallySizedBox-class.html",
-    "image": "<img alt='' src='/images/catalog-widget-placeholder.png'>"
+    "image": "<img alt='' src='/assets/images/docs/catalog-widget-placeholder.png'>"
   },
   {
     "name": "FutureBuilder",
@@ -855,7 +1084,7 @@
     ],
     "subcategories": [],
     "link": "https://api.flutter.dev/flutter/widgets/FutureBuilder-class.html",
-    "image": "<img alt='' src='/images/catalog-widget-placeholder.png'>"
+    "image": "<img alt='' src='/assets/images/docs/catalog-widget-placeholder.png'>"
   },
   {
     "name": "GestureDetector",
@@ -865,7 +1094,7 @@
       "Touch interactions"
     ],
     "link": "https://api.flutter.dev/flutter/widgets/GestureDetector-class.html",
-    "image": "<img alt='' src='/images/catalog-widget-placeholder.png'>"
+    "image": "<img alt='' src='/assets/images/docs/catalog-widget-placeholder.png'>"
   },
   {
     "name": "GridView",
@@ -890,7 +1119,7 @@
       "Routing"
     ],
     "link": "https://api.flutter.dev/flutter/widgets/Hero-class.html",
-    "image": "<img alt='' src='/images/catalog-widget-placeholder.png'>"
+    "image": "<img alt='' src='/assets/images/docs/catalog-widget-placeholder.png'>"
   },
   {
     "name": "Icon",
@@ -906,8 +1135,18 @@
     "image": "<img alt='' src='https://flutter.github.io/assets-for-api-docs/assets/widgets/icon.png'>"
   },
   {
+    "name": "Icon button",
+    "description": "Clickable icons to prompt app users to take supplementary actions.",
+    "categories": [],
+    "subcategories": [
+      "Actions"
+    ],
+    "link": "https://api.flutter.dev/flutter/material/IconButton-class.html",
+    "image": "<img alt='' src='/assets/images/docs/widget-catalog/material-3-icon-button.png'>",
+    "hoverimage": "<img alt='' src='/assets/images/docs/widget-catalog/material-3-leaves.png'>"
+  },
+  {
     "name": "IconButton",
-    "sample": "IconButton",
     "description": "An icon button is a picture printed on a Material widget that reacts to touches by filling with color (ink).",
     "categories": [],
     "subcategories": [
@@ -924,7 +1163,7 @@
       "Touch interactions"
     ],
     "link": "https://api.flutter.dev/flutter/widgets/IgnorePointer-class.html",
-    "image": "<img alt='' src='/images/catalog-widget-placeholder.png'>"
+    "image": "<img alt='' src='/assets/images/docs/catalog-widget-placeholder.png'>"
   },
   {
     "name": "Image",
@@ -937,7 +1176,7 @@
       "Information displays"
     ],
     "link": "https://api.flutter.dev/flutter/widgets/Image-class.html",
-    "image": "<svg viewBox='0 0 100 100'><rect x='0' y='0' width='100' height='100' fill='#3949ab'/><rect x='20' y='20' width='60' height='60' fill='#ffffff'/><image x='22.5' y='22.5' width='55' height='55' xlink:href='/images/owl.jpg'/></svg>"
+    "image": "<svg viewBox='0 0 100 100'><rect x='0' y='0' width='100' height='100' fill='#3949ab'/><rect x='20' y='20' width='60' height='60' fill='#ffffff'/><image x='22.5' y='22.5' width='55' height='55' xlink:href='/assets/images/docs/owl.jpg'/></svg>"
   },
   {
     "name": "IndexedStack",
@@ -947,7 +1186,17 @@
       "Multi-child layout widgets"
     ],
     "link": "https://api.flutter.dev/flutter/widgets/IndexedStack-class.html",
-    "image": "<img alt='' src='/images/catalog-widget-placeholder.png'>"
+    "image": "<img alt='' src='/assets/images/docs/catalog-widget-placeholder.png'>"
+  },
+  {
+    "name": "InteractiveViewer",
+    "description": "A widget that enables pan and zoom interactions with its child.",
+    "categories": [],
+    "subcategories": [
+      "Touch interactions"
+    ],
+    "link": "https://api.flutter.dev/flutter/widgets/InteractiveViewer-class.html",
+    "image": "<img alt='' src='/assets/images/docs/catalog-widget-placeholder.png'>"
   },
   {
     "name": "IntrinsicHeight",
@@ -957,7 +1206,7 @@
       "Single-child layout widgets"
     ],
     "link": "https://api.flutter.dev/flutter/widgets/IntrinsicHeight-class.html",
-    "image": "<img alt='' src='/images/catalog-widget-placeholder.png'>"
+    "image": "<img alt='' src='/assets/images/docs/catalog-widget-placeholder.png'>"
   },
   {
     "name": "IntrinsicWidth",
@@ -967,7 +1216,7 @@
       "Single-child layout widgets"
     ],
     "link": "https://api.flutter.dev/flutter/widgets/IntrinsicWidth-class.html",
-    "image": "<img alt='' src='/images/catalog-widget-placeholder.png'>"
+    "image": "<img alt='' src='/assets/images/docs/catalog-widget-placeholder.png'>"
   },
   {
     "name": "LayoutBuilder",
@@ -977,7 +1226,7 @@
       "Multi-child layout widgets"
     ],
     "link": "https://api.flutter.dev/flutter/widgets/LayoutBuilder-class.html",
-    "image": "<img alt='' src='/images/catalog-widget-placeholder.png'>"
+    "image": "<img alt='' src='/assets/images/docs/catalog-widget-placeholder.png'>"
   },
   {
     "name": "LimitedBox",
@@ -987,7 +1236,7 @@
       "Single-child layout widgets"
     ],
     "link": "https://api.flutter.dev/flutter/widgets/LimitedBox-class.html",
-    "image": "<img alt='' src='/images/catalog-widget-placeholder.png'>"
+    "image": "<img alt='' src='/assets/images/docs/catalog-widget-placeholder.png'>"
   },
   {
     "name": "LinearProgressIndicator",
@@ -997,7 +1246,18 @@
       "Information displays"
     ],
     "link": "https://api.flutter.dev/flutter/material/LinearProgressIndicator-class.html",
-    "image": "<img alt='' src='https://material-design.storage.googleapis.com/publish/material_v_9/0B7WCemMG6e0VWkJiRjRLbzRNS3M/components_progress_and_activity.png'>"
+    "image": "<img alt='' src='/assets/images/docs/widget-catalog/material-linear-progress-indicator.png'>"
+  },
+  {
+    "name": "List",
+    "description": "Continuous, vertical indexes that display text or images.",
+    "categories": [],
+    "subcategories": [
+      "Containment"
+    ],
+    "link": "https://api.flutter.dev/flutter/material/ListTile-class.html",
+    "image": "<img alt='' src='/assets/images/docs/widget-catalog/material-3-list.png'>",
+    "hoverimage": "<img alt='' src='/assets/images/docs/widget-catalog/material-3-coral.png'>"
   },
   {
     "name": "ListBody",
@@ -1007,7 +1267,7 @@
       "Multi-child layout widgets"
     ],
     "link": "https://api.flutter.dev/flutter/widgets/ListBody-class.html",
-    "image": "<img alt='' src='/images/catalog-widget-placeholder.png'>"
+    "image": "<img alt='' src='/assets/images/docs/catalog-widget-placeholder.png'>"
   },
   {
     "name": "ListTile",
@@ -1017,11 +1277,10 @@
       "Layout"
     ],
     "link": "https://api.flutter.dev/flutter/material/ListTile-class.html",
-    "image": "<img alt='' src='https://material-design.storage.googleapis.com/publish/material_v_9/0Bx4BSt6jniD7UUw0bzVwU2lMUHc/components_lists_keylines_single10.png'>"
+    "image": "<img alt='' src='/assets/images/docs/widget-catalog/material-list-tile.png'>"
   },
   {
     "name": "ListView",
-    "sample": "ListView",
     "description": "A scrollable, linear list of widgets. ListView is the most commonly used scrolling widget. It displays its children one after another in the scroll direction. In the cross axis, the children are required to fill the ListView.",
     "categories": [
       "Scrolling"
@@ -1030,7 +1289,7 @@
       "Multi-child layout widgets"
     ],
     "link": "https://api.flutter.dev/flutter/widgets/ListView-class.html",
-    "image": "<svg viewBox='0 0 100 100'><filter id='inset-shadow-block' x='-50%' y='-50%' width='200%' height='200%'><feComponentTransfer in='SourceAlpha'><feFuncA type='table' tableValues='1 0' /></feComponentTransfer><feGaussianBlur stdDeviation='2' result='Blur'/><feFlood flood-color='#666666' result='color'/><feComposite in2='Blur' operator='in'/><feComposite in2='SourceAlpha' operator='in' /><feMerge><feMergeNode /></feMerge></filter><rect x='0' y='0' width='100' height='100' fill='#3949ab'/><rect x='30' y='10' width='40' height='80' fill='#ffffff'/><rect x='35' y='10' width='30' height='15' fill='#4dd0e1'/><rect x='35' y='30' width='30' height='20' fill='#4dd0e1'/><rect x='35' y='55' width='30' height='5' fill='#4dd0e1'/><rect x='35' y='65' width='30' height='15' fill='#4dd0e1'/><rect x='35' y='85' width='30' height='5' fill='#4dd0e1'/><rect x='30' y='10' width='40' height='80' fill='#ffffff' filter='url(#inset-shadow-block)'/></svg>"
+    "image": "<img alt='' src='/assets/images/docs/widget-catalog/material-list-tile.png'>"
   },
   {
     "name": "LongPressDraggable",
@@ -1040,7 +1299,7 @@
       "Touch interactions"
     ],
     "link": "https://api.flutter.dev/flutter/widgets/LongPressDraggable-class.html",
-    "image": "<img alt='' src='/images/catalog-widget-placeholder.png'>"
+    "image": "<img alt='' src='/assets/images/docs/catalog-widget-placeholder.png'>"
   },
   {
     "name": "MaterialApp",
@@ -1060,7 +1319,18 @@
     ],
     "subcategories": [],
     "link": "https://api.flutter.dev/flutter/widgets/MediaQuery-class.html",
-    "image": "<img alt='' src='/images/catalog-widget-placeholder.png'>"
+    "image": "<img alt='' src='/assets/images/docs/catalog-widget-placeholder.png'>"
+  },
+  {
+    "name": "Menu",
+    "description": "Container that displays a list of choices on a temporary surface.",
+    "categories": [],
+    "subcategories": [
+      "Selection"
+    ],
+    "link": "https://api.flutter.dev/flutter/material/PopupMenuButton-class.html",
+    "image": "<img alt='' src='/assets/images/docs/widget-catalog/material-3-menu.png'>",
+    "hoverimage": "<img alt='' src='/assets/images/docs/widget-catalog/material-3-leaves.png'>"
   },
   {
     "name": "MergeSemantics",
@@ -1070,17 +1340,50 @@
     ],
     "subcategories": [],
     "link": "https://api.flutter.dev/flutter/widgets/MergeSemantics-class.html",
-    "image": "<img alt='' src='/images/catalog-widget-placeholder.png'>"
+    "image": "<img alt='' src='/assets/images/docs/catalog-widget-placeholder.png'>"
+  },
+  {
+    "name": "Navigation bar",
+    "description": "Persistent container that enables switching between primary destinations in an app.",
+    "categories": [],
+    "subcategories": [
+      "Navigation"
+    ],
+    "link": "https://api.flutter.dev/flutter/material/NavigationBar-class.html",
+    "image": "<img alt='' src='/assets/images/docs/widget-catalog/material-3-navigation-bar.png'>",
+    "hoverimage": "<img alt='' src='/assets/images/docs/widget-catalog/material-3-bubbles.png'>"
+  },
+  {
+    "name": "Navigation drawer",
+    "description": "Container that slides from the leading edge of the app to navigate to other sections in an app.  The leading edge falls on the left side for left-to-right languages.",
+    "categories": [],
+    "subcategories": [
+      "Navigation"
+    ],
+    "link": "https://api.flutter.dev/flutter/material/NavigationDrawer-class.html",
+    "image": "<img alt='' src='/assets/images/docs/widget-catalog/material-3-navigation-drawer.png'>",
+    "hoverimage": "<img alt='' src='/assets/images/docs/widget-catalog/material-3-bubbles.png'>"
+  },
+  {
+    "name": "Navigation rail",
+    "description": "Persistent container on the leading edge of tablet and desktop screens to navigate to parts of an app. The leading edge falls on the left side for left-to-right languages.",
+    "categories": [],
+    "subcategories": [
+      "Navigation"
+    ],
+    "link": "https://api.flutter.dev/flutter/material/NavigationRail-class.html",
+    "image": "<img alt='' src='/assets/images/docs/widget-catalog/material-3-navigation-rail.png'>",
+    "hoverimage": "<img alt='' src='/assets/images/docs/widget-catalog/material-3-bubbles.png'>"
   },
   {
     "name": "Navigator",
-    "description": "A widget that manages a set of child widgets with a stack discipline. Many apps have a navigator near the top of their widget hierarchy in order to display their logical history using an Overlay with the most recently visited pages visually on top of the older pages. Using this pattern lets the navigator visually transition from one page to another by moving the widgets around in the overlay. Similarly, the navigator can be used to show a dialog by positioning the dialog widget above the current page.",
+    "description": "A widget that manages a set of child widgets with a stack discipline. Many apps have a navigator near the top of their widget hierarchy to display their logical history using an Overlay with the most recently visited pages visually on top of the older pages. Using this pattern lets the navigator visually transition from one page to another by moving the widgets around in the overlay. Similarly, the navigator can be used to show a dialog by positioning the dialog widget above the current page.",
     "categories": [],
     "subcategories": [
       "Routing"
     ],
     "link": "https://api.flutter.dev/flutter/widgets/Navigator-class.html",
-    "image": "<img alt='' src='/images/catalog-widget-placeholder.png'>"
+    "image": "<img alt='' src='/assets/images/docs/catalog-widget-placeholder.png'>"
   },
   {
     "name": "NestedScrollView",
@@ -1090,7 +1393,7 @@
     ],
     "subcategories": [],
     "link": "https://api.flutter.dev/flutter/widgets/NestedScrollView-class.html",
-    "image": "<img alt='' src='/images/catalog-widget-placeholder.png'>"
+    "image": "<img alt='' src='/assets/images/docs/catalog-widget-placeholder.png'>"
   },
   {
     "name": "NotificationListener",
@@ -1100,7 +1403,7 @@
     ],
     "subcategories": [],
     "link": "https://api.flutter.dev/flutter/widgets/NotificationListener-class.html",
-    "image": "<img alt='' src='/images/catalog-widget-placeholder.png'>"
+    "image": "<img alt='' src='/assets/images/docs/catalog-widget-placeholder.png'>"
   },
   {
     "name": "Offstage",
@@ -1110,7 +1413,7 @@
       "Single-child layout widgets"
     ],
     "link": "https://api.flutter.dev/flutter/widgets/Offstage-class.html",
-    "image": "<img alt='' src='/images/catalog-widget-placeholder.png'>"
+    "image": "<img alt='' src='/assets/images/docs/catalog-widget-placeholder.png'>"
   },
   {
     "name": "Opacity",
@@ -1123,6 +1426,16 @@
     "image": "<svg viewBox='0 0 100 100'><rect x='0' y='0' width='100' height='100' fill='#3949ab'/><rect x='10' y='10' width='60' height='60' fill='#3b75ad'/><rect x='20' y='30' width='70' height='50' fill='#ffffff' opacity='0.8'/></svg>"
   },
   {
+    "name": "OutlinedButton",
+    "description": "A Material Design outlined button, essentially a TextButton with an outlined border.",
+    "categories": [],
+    "subcategories": [
+      "Buttons"
+    ],
+    "link": "https://api.flutter.dev/flutter/material/OutlinedButton-class.html",
+    "image": "<img alt='' src='/assets/images/docs/widget-catalog/material-outlined-button.png'>"
+  },
+  {
     "name": "OverflowBox",
     "description": "A widget that imposes different constraints on its child than it gets from its parent, possibly allowing the child to overflow the parent.",
     "categories": [],
@@ -1130,7 +1443,7 @@
       "Single-child layout widgets"
     ],
     "link": "https://api.flutter.dev/flutter/widgets/OverflowBox-class.html",
-    "image": "<img alt='' src='/images/catalog-widget-placeholder.png'>"
+    "image": "<img alt='' src='/assets/images/docs/catalog-widget-placeholder.png'>"
   },
   {
     "name": "Padding",
@@ -1152,7 +1465,7 @@
     ],
     "subcategories": [],
     "link": "https://api.flutter.dev/flutter/widgets/PageView-class.html",
-    "image": "<img alt='' src='/images/catalog-widget-placeholder.png'>"
+    "image": "<img alt='' src='/assets/images/docs/catalog-widget-placeholder.png'>"
   },
   {
     "name": "Placeholder",
@@ -1162,18 +1475,17 @@
     ],
     "subcategories": [],
     "link": "https://api.flutter.dev/flutter/widgets/Placeholder-class.html",
-    "image": "<img alt='' src='/images/catalog-widget-placeholder.png'>"
+    "image": "<img alt='' src='/assets/images/docs/catalog-widget-placeholder.png'>"
   },
   {
     "name": "PopupMenuButton",
-    "sample": "PopupMenuButton",
     "description": "Displays a menu when pressed and calls onSelected when the menu is dismissed because an item was selected.",
     "categories": [],
     "subcategories": [
       "Buttons"
     ],
     "link": "https://api.flutter.dev/flutter/material/PopupMenuButton-class.html",
-    "image": "<img alt='' src='https://storage.googleapis.com/material-design/publish/material_v_11/assets/0B7WCemMG6e0VakJ6a0F2MFJaaDQ/components_menus.png'>"
+    "image": "<img alt='' src='/assets/images/docs/widget-catalog/material-popup-menu-button.png'>"
   },
   {
     "name": "PositionedTransition",
@@ -1183,7 +1495,18 @@
     ],
     "subcategories": [],
     "link": "https://api.flutter.dev/flutter/widgets/PositionedTransition-class.html",
-    "image": "<img alt='' src='/images/catalog-widget-placeholder.png'>"
+    "image": "<img alt='' src='/assets/images/docs/catalog-widget-placeholder.png'>"
+  },
+  {
+    "name": "Progress indicator",
+    "description": "Vertical line that changes color as an ongoing process, such as loading an app or submitting a form, completes.",
+    "categories": [],
+    "subcategories": [
+      "Communication"
+    ],
+    "link": "https://api.flutter.dev/flutter/material/LinearProgressIndicator-class.html",
+    "image": "<img alt='' src='/assets/images/docs/widget-catalog/material-3-progress-indicator.png'>",
+    "hoverimage": "<img alt='' src='/assets/images/docs/widget-catalog/material-3-coral.png'>"
   },
   {
     "name": "Radio",
@@ -1193,19 +1516,18 @@
       "Input and selections"
     ],
     "link": "https://api.flutter.dev/flutter/material/Radio-class.html",
-    "image": "<img alt='' src='https://storage.googleapis.com/material-design/publish/material_v_9/0Bx4BSt6jniD7Z1NaaXh2ZkpDRkE/components_switches_radio1.png'>"
+    "image": "<img alt='' src='/assets/images/docs/widget-catalog/material-radio.png'>"
   },
   {
-    "name": "RaisedButton",
-    "description": "A Material Design raised button. A raised button consists of a rectangular piece of material that hovers over the interface.",
-    "categories": [
-      "Basics"
-    ],
+    "name": "Radio button",
+    "description": "Form control that app users can select or clear to select only one option from a set. Select the option to enable it or clear it to disable it.",
+    "categories": [],
     "subcategories": [
-      "Buttons"
+      "Selection"
     ],
-    "link": "https://api.flutter.dev/flutter/material/RaisedButton-class.html",
-    "image": "<img alt='' src='https://material-design.storage.googleapis.com/publish/material_v_9/0B7WCemMG6e0VbDh6YmNiYVc3SHM/components_buttons_usage2.png'>"
+    "link": "https://api.flutter.dev/flutter/material/Radio-class.html",
+    "image": "<img alt='' src='/assets/images/docs/widget-catalog/material-3-radio-button.png'>",
+    "hoverimage": "<img alt='' src='/assets/images/docs/widget-catalog/material-3-leaves.png'>"
   },
   {
     "name": "RawImage",
@@ -1215,7 +1537,7 @@
     ],
     "subcategories": [],
     "link": "https://api.flutter.dev/flutter/widgets/RawImage-class.html",
-    "image": "<img alt='' src='/images/catalog-widget-placeholder.png'>"
+    "image": "<img alt='' src='/assets/images/docs/catalog-widget-placeholder.png'>"
   },
   {
     "name": "RawKeyboardListener",
@@ -1225,7 +1547,7 @@
     ],
     "subcategories": [],
     "link": "https://api.flutter.dev/flutter/widgets/RawKeyboardListener-class.html",
-    "image": "<img alt='' src='/images/catalog-widget-placeholder.png'>"
+    "image": "<img alt='' src='/assets/images/docs/catalog-widget-placeholder.png'>"
   },
   {
     "name": "RefreshIndicator",
@@ -1238,6 +1560,16 @@
     "image": "<img alt='' src='https://storage.googleapis.com/material-design/publish/material_v_12/assets/0B7WCemMG6e0VS2kzSmZwNnNKQVk/patterns-swipe-to-refresh.png'>"
   },
   {
+    "name": "ReorderableListView",
+    "description": "A list whose items the user can interactively reorder by dragging.",
+    "categories": [
+      "Scrolling"
+    ],
+    "subcategories": [],
+    "link": "https://api.flutter.dev/flutter/material/ReorderableListView-class.html",
+    "image": "<img alt='' src='/assets/images/docs/catalog-widget-placeholder.png'>"
+  },
+  {
     "name": "RichText",
     "description": "The RichText widget displays text that uses multiple different styles. The text to display is described using a tree of TextSpan objects, each of which has an associated style that is used for that subtree. The text might break across multiple lines or might all be displayed on the same line depending on the layout constraints.",
     "categories": [
@@ -1245,7 +1577,7 @@
     ],
     "subcategories": [],
     "link": "https://api.flutter.dev/flutter/widgets/RichText-class.html",
-    "image": "<img alt='' src='/images/catalog-widget-placeholder.png'>"
+    "image": "<img alt='' src='/assets/images/docs/catalog-widget-placeholder.png'>"
   },
   {
     "name": "RotatedBox",
@@ -1255,7 +1587,7 @@
     ],
     "subcategories": [],
     "link": "https://api.flutter.dev/flutter/widgets/RotatedBox-class.html",
-    "image": "<img alt='' src='/images/catalog-widget-placeholder.png'>"
+    "image": "<img alt='' src='/assets/images/docs/catalog-widget-placeholder.png'>"
   },
   {
     "name": "RotationTransition",
@@ -1265,7 +1597,7 @@
     ],
     "subcategories": [],
     "link": "https://api.flutter.dev/flutter/widgets/RotationTransition-class.html",
-    "image": "<img alt='' src='/images/catalog-widget-placeholder.png'>"
+    "image": "<img alt='' src='/assets/images/docs/catalog-widget-placeholder.png'>"
   },
   {
     "name": "Row",
@@ -1281,7 +1613,6 @@
   },
   {
     "name": "Scaffold",
-    "sample": "Scaffold",
     "description": "Implements the basic Material Design visual layout structure. This class provides APIs for showing drawers, snack bars, and bottom sheets.",
     "categories": [
       "Basics"
@@ -1300,7 +1631,7 @@
     ],
     "subcategories": [],
     "link": "https://api.flutter.dev/flutter/widgets/ScaleTransition-class.html",
-    "image": "<img alt='' src='/images/catalog-widget-placeholder.png'>"
+    "image": "<img alt='' src='/assets/images/docs/catalog-widget-placeholder.png'>"
   },
   {
     "name": "ScrollConfiguration",
@@ -1310,7 +1641,7 @@
     ],
     "subcategories": [],
     "link": "https://api.flutter.dev/flutter/widgets/ScrollConfiguration-class.html",
-    "image": "<img alt='' src='/images/catalog-widget-placeholder.png'>"
+    "image": "<img alt='' src='/assets/images/docs/catalog-widget-placeholder.png'>"
   },
   {
     "name": "Scrollable",
@@ -1322,7 +1653,7 @@
       "Touch interactions"
     ],
     "link": "https://api.flutter.dev/flutter/widgets/Scrollable-class.html",
-    "image": "<img alt='' src='/images/catalog-widget-placeholder.png'>"
+    "image": "<img alt='' src='/assets/images/docs/catalog-widget-placeholder.png'>"
   },
   {
     "name": "Scrollbar",
@@ -1332,7 +1663,18 @@
     ],
     "subcategories": [],
     "link": "https://api.flutter.dev/flutter/material/Scrollbar-class.html",
-    "image": "<img alt='' src='/images/catalog-widget-placeholder.png'>"
+    "image": "<img alt='' src='/assets/images/docs/catalog-widget-placeholder.png'>"
+  },
+  {
+    "name": "Segmented button",
+    "description": "Single or multiple selected clickable blocks to help people select options, switch views, or sort elements.",
+    "categories": [],
+    "subcategories": [
+      "Actions"
+    ],
+    "link": "https://api.flutter.dev/flutter/material/SegmentedButton-class.html",
+    "image": "<img alt='' src='/assets/images/docs/widget-catalog/material-3-segmented-button.png'>",
+    "hoverimage": "<img alt='' src='/assets/images/docs/widget-catalog/material-3-leaves.png'>"
   },
   {
     "name": "Semantics",
@@ -1342,7 +1684,7 @@
     ],
     "subcategories": [],
     "link": "https://api.flutter.dev/flutter/widgets/Semantics-class.html",
-    "image": "<img alt='' src='/images/catalog-widget-placeholder.png'>"
+    "image": "<img alt='' src='/assets/images/docs/catalog-widget-placeholder.png'>"
   },
   {
     "name": "SimpleDialog",
@@ -1362,7 +1704,7 @@
     ],
     "subcategories": [],
     "link": "https://api.flutter.dev/flutter/widgets/SingleChildScrollView-class.html",
-    "image": "<img alt='' src='/images/catalog-widget-placeholder.png'>"
+    "image": "<img alt='' src='/assets/images/docs/catalog-widget-placeholder.png'>"
   },
   {
     "name": "SizeTransition",
@@ -1372,7 +1714,7 @@
     ],
     "subcategories": [],
     "link": "https://api.flutter.dev/flutter/widgets/SizeTransition-class.html",
-    "image": "<img alt='' src='/images/catalog-widget-placeholder.png'>"
+    "image": "<img alt='' src='/assets/images/docs/catalog-widget-placeholder.png'>"
   },
   {
     "name": "SizedBox",
@@ -1392,7 +1734,7 @@
       "Single-child layout widgets"
     ],
     "link": "https://api.flutter.dev/flutter/widgets/SizedOverflowBox-class.html",
-    "image": "<img alt='' src='/images/catalog-widget-placeholder.png'>"
+    "image": "<img alt='' src='/assets/images/docs/catalog-widget-placeholder.png'>"
   },
   {
     "name": "SlideTransition",
@@ -1402,7 +1744,7 @@
     ],
     "subcategories": [],
     "link": "https://api.flutter.dev/flutter/widgets/SlideTransition-class.html",
-    "image": "<img alt='' src='/images/catalog-widget-placeholder.png'>"
+    "image": "<img alt='' src='/assets/images/docs/catalog-widget-placeholder.png'>"
   },
   {
     "name": "Slider",
@@ -1412,17 +1754,109 @@
       "Input and selections"
     ],
     "link": "https://api.flutter.dev/flutter/material/Slider-class.html",
-    "image": "<img alt='' src='https://material-design.storage.googleapis.com/publish/material_v_9/0B7WCemMG6e0VTmJrQUYzajFIclE/components_sliders.png'>"
+    "image": "<img alt='' src='/assets/images/docs/widget-catalog/material-slider.png'>"
+  },
+  {
+    "name": "Slider",
+    "description": "Form control that enables selecting a range of values.",
+    "categories": [],
+    "subcategories": [
+      "Selection"
+    ],
+    "link": "https://api.flutter.dev/flutter/material/Slider-class.html",
+    "image": "<img alt='' src='/assets/images/docs/widget-catalog/material-3-slider.png'>",
+    "hoverimage": "<img alt='' src='/assets/images/docs/widget-catalog/material-3-leaves.png'>"
   },
   {
     "name": "SliverAppBar",
     "description": "A material design app bar that integrates with a CustomScrollView.",
     "categories": [],
     "subcategories": [
-      "App structure and navigation"
+      "App structure and navigation",
+      "Sliver widgets"
     ],
     "link": "https://api.flutter.dev/flutter/material/SliverAppBar-class.html",
-    "image": "<img alt='' src='https://material-design.storage.googleapis.com/publish/material_v_9/0B7WCemMG6e0VclpfSFpuelBGR1k/components_toolbars.png'>"
+    "image": "<img alt='' src='/assets/images/docs/widget-catalog/material-app-bar.png'>"
+  },
+  {
+    "name": "SliverChildBuilderDelegate",
+    "description": "A delegate that supplies children for slivers using a builder callback.",
+    "categories": [],
+    "subcategories": [
+      "Sliver widgets"
+    ],
+    "link": "https://api.flutter.dev/flutter/widgets/SliverChildBuilderDelegate-class.html",
+    "image": "<img alt='' src='/assets/images/docs/catalog-widget-placeholder.png'>"
+  },
+  {
+    "name": "SliverChildListDelegate",
+    "description": "A delegate that supplies children for slivers using an explicit list.",
+    "categories": [],
+    "subcategories": [
+      "Sliver widgets"
+    ],
+    "link": "https://api.flutter.dev/flutter/widgets/SliverChildListDelegate-class.html",
+    "image": "<img alt='' src='/assets/images/docs/catalog-widget-placeholder.png'>"
+  },
+  {
+    "name": "SliverFixedExtentList",
+    "description": "A sliver that places multiple box children with the same main axis extent in a linear array.",
+    "categories": [],
+    "subcategories": [
+      "Sliver widgets"
+    ],
+    "link": "https://api.flutter.dev/flutter/widgets/SliverFixedExtentList-class.html",
+    "image": "<img alt='' src='/assets/images/docs/catalog-widget-placeholder.png'>"
+  },
+  {
+    "name": "SliverGrid",
+    "description": "A sliver that places multiple box children in a two dimensional arrangement.",
+    "categories": [],
+    "subcategories": [
+      "Sliver widgets"
+    ],
+    "link": "https://api.flutter.dev/flutter/widgets/SliverGrid-class.html",
+    "image": "<img alt='' src='/assets/images/docs/catalog-widget-placeholder.png'>"
+  },
+  {
+    "name": "SliverList",
+    "description": "A sliver that places multiple box children in a linear array along the main axis.",
+    "categories": [],
+    "subcategories": [
+      "Sliver widgets"
+    ],
+    "link": "https://api.flutter.dev/flutter/widgets/SliverList-class.html",
+    "image": "<img alt='' src='/assets/images/docs/catalog-widget-placeholder.png'>"
+  },
+  {
+    "name": "SliverPadding",
+    "description": "A sliver that applies padding on each side of another sliver.",
+    "categories": [],
+    "subcategories": [
+      "Sliver widgets"
+    ],
+    "link": "https://api.flutter.dev/flutter/widgets/SliverPadding-class.html",
+    "image": "<img alt='' src='/assets/images/docs/catalog-widget-placeholder.png'>"
+  },
+  {
+    "name": "SliverPersistentHeader",
+    "description": "A sliver whose size varies when the sliver is scrolled to the edge of the viewport opposite the sliver's GrowthDirection.",
+    "categories": [],
+    "subcategories": [
+      "Sliver widgets"
+    ],
+    "link": "https://api.flutter.dev/flutter/widgets/SliverPersistentHeader-class.html",
+    "image": "<img alt='' src='/assets/images/docs/catalog-widget-placeholder.png'>"
+  },
+  {
+    "name": "SliverToBoxAdapter",
+    "description": "A sliver that contains a single box widget.",
+    "categories": [],
+    "subcategories": [
+      "Sliver widgets"
+    ],
+    "link": "https://api.flutter.dev/flutter/widgets/SliverToBoxAdapter-class.html",
+    "image": "<img alt='' src='/assets/images/docs/catalog-widget-placeholder.png'>"
   },
   {
     "name": "SnackBar",
@@ -1432,7 +1866,18 @@
       "Dialogs, alerts, and panels"
     ],
     "link": "https://api.flutter.dev/flutter/material/SnackBar-class.html",
-    "image": "<img alt='' src='https://material-design.storage.googleapis.com/publish/material_v_9/0B7WCemMG6e0VSjZkendtc19iZ2M/components_snackbars.png'>"
+    "image": "<img alt='' src='/assets/images/docs/widget-catalog/material-snack-bar.png'>"
+  },
+  {
+    "name": "Snackbar",
+    "description": "Brief messages about app processes that display at the bottom of the screen.",
+    "categories": [],
+    "subcategories": [
+      "Communication"
+    ],
+    "link": "https://api.flutter.dev/flutter/material/SnackBar-class.html",
+    "image": "<img alt='' src='/assets/images/docs/widget-catalog/material-3-snackbar.png'>",
+    "hoverimage": "<img alt='' src='/assets/images/docs/widget-catalog/material-3-coral.png'>"
   },
   {
     "name": "Stack",
@@ -1464,7 +1909,7 @@
     ],
     "subcategories": [],
     "link": "https://api.flutter.dev/flutter/widgets/StreamBuilder-class.html",
-    "image": "<img alt='' src='/images/catalog-widget-placeholder.png'>"
+    "image": "<img alt='' src='/assets/images/docs/catalog-widget-placeholder.png'>"
   },
   {
     "name": "Switch",
@@ -1474,39 +1919,79 @@
       "Input and selections"
     ],
     "link": "https://api.flutter.dev/flutter/material/Switch-class.html",
-    "image": "<img alt='' src='https://storage.googleapis.com/material-design/publish/material_v_9/0Bx4BSt6jniD7NDg4aGIzVXYxVEE/components_switches_switch1.png'>"
+    "image": "<img alt='' src='/assets/images/docs/widget-catalog/material-switch.png'>"
+  },
+  {
+    "name": "Switch",
+    "description": "Toggle control that changes the state of a single item to on or off.",
+    "categories": [],
+    "subcategories": [
+      "Selection"
+    ],
+    "link": "https://api.flutter.dev/flutter/material/Switch-class.html",
+    "image": "<img alt='' src='/assets/images/docs/widget-catalog/material-3-switch.png'>",
+    "hoverimage": "<img alt='' src='/assets/images/docs/widget-catalog/material-3-leaves.png'>"
+  },
+  {
+    "name": "Tab bar",
+    "description": "Layered containers that organize content across different screens, data sets, and other interactions.",
+    "categories": [],
+    "subcategories": [
+      "Navigation"
+    ],
+    "link": "https://api.flutter.dev/flutter/material/TabBar-class.html",
+    "image": "<img alt='' src='/assets/images/docs/widget-catalog/material-3-tab-bar.png'>",
+    "hoverimage": "<img alt='' src='/assets/images/docs/widget-catalog/material-3-bubbles.png'>"
   },
   {
     "name": "TabBar",
-    "sample": "TabBar",
     "description": "A Material Design widget that displays a horizontal row of tabs.",
     "categories": [],
     "subcategories": [
       "App structure and navigation"
     ],
     "link": "https://api.flutter.dev/flutter/material/TabBar-class.html",
-    "image": "<img alt='' src='https://material-design.storage.googleapis.com/publish/material_v_9/0B7WCemMG6e0VaWdBdnhMT3ViXzQ/components_tabs.png'>"
+    "image": "<img alt='' src='/assets/images/docs/widget-catalog/material-tab-bar.png'>"
   },
   {
     "name": "TabBarView",
-    "sample": "TabBarView",
     "description": "A page view that displays the widget which corresponds to the currently selected tab. Typically used in conjunction with a TabBar.",
     "categories": [],
     "subcategories": [
       "App structure and navigation"
     ],
     "link": "https://api.flutter.dev/flutter/material/TabBarView-class.html",
-    "image": "<img alt='' src='https://storage.googleapis.com/material-design/publish/material_v_11/assets/0B7WCemMG6e0VaWdBdnhMT3ViXzQ/components_tabs.png'>"
+    "image": "<img alt='' src='/assets/images/docs/widget-catalog/material-tab-bar.png'>"
+  },
+  {
+    "name": "TabController",
+    "description": "Coordinates tab selection between a TabBar and a TabBarView.",
+    "categories": [],
+    "subcategories": [
+      "App structure and navigation"
+    ],
+    "link": "https://api.flutter.dev/flutter/material/TabController-class.html",
+    "image": "<img alt='' src='/assets/images/docs/widget-catalog/material-tab-bar.png'>"
+  },
+  {
+    "name": "TabPageSelector",
+    "description": "Displays a row of small circular indicators, one per tab. The selected tab's indicator is highlighted. Often used in conjunction with a TabBarView.",
+    "categories": [],
+    "subcategories": [
+      "App structure and navigation"
+    ],
+    "link": "https://api.flutter.dev/flutter/material/TabPageSelector-class.html",
+    "image": "<img alt='' src='/assets/images/docs/widget-catalog/material-tab-bar.png'>"
   },
   {
     "name": "Table",
-    "description": "A widget that uses the table layout algorithm for its children.",
+    "description": "Displays child widgets in rows and columns.",
     "categories": [],
     "subcategories": [
       "Multi-child layout widgets"
     ],
     "link": "https://api.flutter.dev/flutter/widgets/Table-class.html",
-    "image": "<img alt='' src='/images/catalog-widget-placeholder.png'>"
+    "image": "<img alt='' src='/assets/images/docs/catalog-widget-placeholder.png'>"
   },
   {
     "name": "Text",
@@ -1520,6 +2005,27 @@
     "image": "<svg viewBox='0 0 100 100'><rect x='0' y='0' width='100' height='100' fill='#3949ab'/><rect x='20' y='30' width='60' height='40' fill='#ffffff'/><text x='50' y='60' text-anchor='middle' font-family='Roboto' font-size='25' fill='#3b75ad'>Abc</text></svg>"
   },
   {
+    "name": "TextButton",
+    "description": "A Material Design text button. A simple flat button without a border outline.",
+    "categories": [],
+    "subcategories": [
+      "Buttons"
+    ],
+    "link": "https://api.flutter.dev/flutter/material/TextButton-class.html",
+    "image": "<img alt='' src='https://material-design.storage.googleapis.com/publish/material_v_9/0B7WCemMG6e0VNDg3V3ZjU2hsNGc/components_buttons_usage3.png'>"
+  },
+  {
+    "name": "Text field",
+    "description": "Box into which app users can enter text. They appear in forms and dialogs.",
+    "categories": [],
+    "subcategories": [
+      "Text Inputs"
+    ],
+    "link": "https://api.flutter.dev/flutter/material/TextField-class.html",
+    "image": "<img alt='' src='/assets/images/docs/widget-catalog/material-3-text-field.png'>",
+    "hoverimage": "<img alt='' src='/assets/images/docs/widget-catalog/material-3-bubbles.png'>"
+  },
+  {
     "name": "TextField",
     "description": "Touching a text field places the cursor and displays the keyboard. The TextField widget implements this component.",
     "categories": [],
@@ -1527,7 +2033,7 @@
       "Input and selections"
     ],
     "link": "https://api.flutter.dev/flutter/material/TextField-class.html",
-    "image": "<img alt='' src='https://material-design.storage.googleapis.com/publish/material_v_9/0B7WCemMG6e0VbURLNTM0N0R6eUE/components_text_fields.png'>"
+    "image": "<img alt='' src='/assets/images/docs/widget-catalog/material-text-field.png'>"
   },
   {
     "name": "Theme",
@@ -1537,7 +2043,18 @@
     ],
     "subcategories": [],
     "link": "https://api.flutter.dev/flutter/material/Theme-class.html",
-    "image": "<img alt='' src='/images/catalog-widget-placeholder.png'>"
+    "image": "<img alt='' src='/assets/images/docs/catalog-widget-placeholder.png'>"
+  },
+  {
+    "name": "Time picker",
+    "description": "Clock interface used to select and set a specific time.",
+    "categories": [],
+    "subcategories": [
+      "Selection"
+    ],
+    "link": "https://api.flutter.dev/flutter/material/showTimePicker.html",
+    "image": "<img alt='' src='/assets/images/docs/widget-catalog/material-3-time-picker.png'>",
+    "hoverimage": "<img alt='' src='/assets/images/docs/widget-catalog/material-3-leaves.png'>"
   },
   {
     "name": "Tooltip",
@@ -1547,7 +2064,7 @@
       "Information displays"
     ],
     "link": "https://api.flutter.dev/flutter/material/Tooltip-class.html",
-    "image": "<img alt='' src='https://material-design.storage.googleapis.com/publish/material_v_9/0B7WCemMG6e0VZ1JKMzJFcmhOWkk/components_tooltips.png'>"
+    "image": "<img alt='' src='/assets/images/docs/widget-catalog/material-tooltip.png'>"
   },
   {
     "name": "Transform",
@@ -1569,7 +2086,7 @@
       "App structure and navigation"
     ],
     "link": "https://api.flutter.dev/flutter/widgets/WidgetsApp-class.html",
-    "image": "<img alt='' src='/images/catalog-widget-placeholder.png'>"
+    "image": "<img alt='' src='/assets/images/docs/widget-catalog/material-widgets-app.png'>"
   },
   {
     "name": "Wrap",
@@ -1579,6 +2096,6 @@
       "Multi-child layout widgets"
     ],
     "link": "https://api.flutter.dev/flutter/widgets/Wrap-class.html",
-    "image": "<img alt='' src='/images/catalog-widget-placeholder.png'>"
+    "image": "<img alt='' src='/assets/images/docs/catalog-widget-placeholder.png'>"
   }
 ]

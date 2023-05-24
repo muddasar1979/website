@@ -3,19 +3,23 @@ import 'package:flutter/material.dart';
 /// This is here so we don't need to show Scaffold and AppBar in the snippet.
 /// We need Scaffold+AppBar so that the smoke test can get out of this page.
 class HelperScaffoldWrapper extends StatelessWidget {
+  const HelperScaffoldWrapper({super.key});
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(),
-      body: MyHomepage(),
+      body: const MyHomepage(),
     );
   }
 }
 
 // #docregion Ephemeral
 class MyHomepage extends StatefulWidget {
+  const MyHomepage({super.key});
+
   @override
-  _MyHomepageState createState() => _MyHomepageState();
+  State<MyHomepage> createState() => _MyHomepageState();
 }
 
 class _MyHomepageState extends State<MyHomepage> {
@@ -31,9 +35,9 @@ class _MyHomepageState extends State<MyHomepage> {
         });
       },
       // #enddocregion Ephemeral
-      items: [
-        BottomNavigationBarItem(title: Text('abc'), icon: Icon(Icons.title)),
-        BottomNavigationBarItem(title: Text('def'), icon: Icon(Icons.map)),
+      items: const [
+        BottomNavigationBarItem(label: 'abc', icon: Icon(Icons.title)),
+        BottomNavigationBarItem(label: 'def', icon: Icon(Icons.map)),
       ],
       // #docregion Ephemeral
     );

@@ -11,9 +11,9 @@
 //
 // dependencies:
 //   flutter:
-//   sdk: flutter
-//  flutter_localizations:
-//    sdk: flutter
+//     sdk: flutter
+//   flutter_localizations:
+//     sdk: flutter
 
 // If you run this app with the device's locale set to anything but
 // English or Spanish, the app's locale will be English. If you
@@ -22,20 +22,21 @@
 
 import 'dart:async';
 
-import 'package:flutter/material.dart';
 import 'package:flutter/foundation.dart' show SynchronousFuture;
+import 'package:flutter/material.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 
+// #docregion Demo
 class DemoLocalizations {
   DemoLocalizations(this.locale);
 
   final Locale locale;
 
   static DemoLocalizations of(BuildContext context) {
-    return Localizations.of<DemoLocalizations>(context, DemoLocalizations);
+    return Localizations.of<DemoLocalizations>(context, DemoLocalizations)!;
   }
 
-  static Map<String, Map<String, String>> _localizedValues = {
+  static const _localizedValues = <String, Map<String, String>>{
     'en': {
       'title': 'Hello World',
     },
@@ -44,16 +45,22 @@ class DemoLocalizations {
     },
   };
 
+  static List<String> languages ()=> _localizedValues.keys.toList();
+
   String get title {
-    return _localizedValues[locale.languageCode]['title'];
+    return _localizedValues[locale.languageCode]!['title']!;
   }
 }
+// #enddocregion Demo
 
-class DemoLocalizationsDelegate extends LocalizationsDelegate<DemoLocalizations> {
+// #docregion Delegate
+class DemoLocalizationsDelegate
+    extends LocalizationsDelegate<DemoLocalizations> {
   const DemoLocalizationsDelegate();
 
   @override
-  bool isSupported(Locale locale) => ['en', 'es'].contains(locale.languageCode);
+  bool isSupported(Locale locale) => DemoLocalizations.languages().contains(locale.languageCode);
+
 
   @override
   Future<DemoLocalizations> load(Locale locale) {
@@ -65,8 +72,11 @@ class DemoLocalizationsDelegate extends LocalizationsDelegate<DemoLocalizations>
   @override
   bool shouldReload(DemoLocalizationsDelegate old) => false;
 }
+// #enddocregion Delegate
 
 class DemoApp extends StatelessWidget {
+  const DemoApp({super.key});
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -81,28 +91,31 @@ class DemoApp extends StatelessWidget {
 }
 
 class Demo extends StatelessWidget {
+  const Demo({super.key});
+
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      onGenerateTitle: (BuildContext context) => DemoLocalizations.of(context).title,
-      localizationsDelegates: [
-        const DemoLocalizationsDelegate(),
+      onGenerateTitle: (context) =>
+          DemoLocalizations.of(context).title,
+      localizationsDelegates: const [
+        DemoLocalizationsDelegate(),
         GlobalMaterialLocalizations.delegate,
         GlobalWidgetsLocalizations.delegate,
       ],
-      supportedLocales: [
-        const Locale('en', ''),
-        const Locale('es', ''),
+      supportedLocales: const [
+        Locale('en', ''),
+        Locale('es', ''),
       ],
       // Watch out: MaterialApp creates a Localizations widget
       // with the specified delegates. DemoLocalizations.of()
       // will only find the app's Localizations widget if its
       // context is a child of the app.
-      home: DemoApp(),
+      home: const DemoApp(),
     );
   }
 }
 
 void main() {
-  runApp(Demo());
+  runApp(const Demo());
 }

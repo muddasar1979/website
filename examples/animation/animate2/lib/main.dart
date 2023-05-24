@@ -1,21 +1,21 @@
-import 'package:flutter/animation.dart';
 import 'package:flutter/material.dart';
 
-void main() => runApp(LogoApp());
+void main() => runApp(const LogoApp());
 
 // #docregion AnimatedLogo
 class AnimatedLogo extends AnimatedWidget {
-  AnimatedLogo({Key key, Animation<double> animation})
-      : super(key: key, listenable: animation);
+  const AnimatedLogo({super.key, required Animation<double> animation})
+      : super(listenable: animation);
 
+  @override
   Widget build(BuildContext context) {
-    final Animation<double> animation = listenable as Animation<double>;
+    final animation = listenable as Animation<double>;
     return Center(
       child: Container(
-        margin: EdgeInsets.symmetric(vertical: 10),
+        margin: const EdgeInsets.symmetric(vertical: 10),
         height: animation.value,
         width: animation.value,
-        child: FlutterLogo(),
+        child: const FlutterLogo(),
       ),
     );
   }
@@ -23,12 +23,15 @@ class AnimatedLogo extends AnimatedWidget {
 // #enddocregion AnimatedLogo
 
 class LogoApp extends StatefulWidget {
-  _LogoAppState createState() => _LogoAppState();
+  const LogoApp({super.key});
+
+  @override
+  State<LogoApp> createState() => _LogoAppState();
 }
 
 class _LogoAppState extends State<LogoApp> with SingleTickerProviderStateMixin {
-  Animation<double> animation;
-  AnimationController controller;
+  late Animation<double> animation;
+  late AnimationController controller;
 
   @override
   void initState() {

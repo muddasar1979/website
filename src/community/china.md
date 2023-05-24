@@ -4,14 +4,14 @@ description: Where to find a version of the Flutter site that is localized to Si
 toc: true
 ---
 
-{% assign path = 'flutter_infra/releases/stable/windows/flutter_windows_v1.0.0-stable.zip' -%}
+{% assign path = 'flutter_infra_release/releases/stable/windows/flutter_windows_3.3.0-stable.zip' -%}
 
 The Flutter community has made a Simplified Chinese version of the
-Flutter site website available at
-[https://flutter-io.cn](https://flutter-io.cn).
+Flutter website available at
+[https://flutter.cn](https://flutter.cn).
 
-If you’d like to install Flutter using an [installation
-bundle](/docs/development/tools/sdk/archive),
+If you’d like to install Flutter using an 
+[installation bundle]({{site.url}}/release/archive),
 you can replace the domain of the original URL with a trusted mirror
 to speed it up. For example:
 
@@ -37,7 +37,7 @@ To instruct the Flutter tool to use an alternate storage location,
 you need to set two environment variables, `PUB_HOSTED_URL` and
 `FLUTTER_STORAGE_BASE_URL`, before running the `flutter` command.
 
-Taking MacOS or Linux as an example, here are the first few steps in
+Taking macOS or Linux as an example, here are the first few steps in
 the setup process for using a mirror site. Run the following in a Bash
 shell from the directory where you wish to store your local Flutter clone:
 
@@ -45,14 +45,14 @@ shell from the directory where you wish to store your local Flutter clone:
 ```terminal
 $ export PUB_HOSTED_URL=https://pub.flutter-io.cn
 $ export FLUTTER_STORAGE_BASE_URL=https://storage.flutter-io.cn
-$ git clone -b dev {{site.github}}/flutter/flutter.git
+$ git clone -b dev {{site.repo.flutter}}.git
 $ export PATH="$PWD/flutter/bin:$PATH"
 $ cd ./flutter
 $ flutter doctor
 ```
 
 After these steps, you should be able to continue
-[setting up Flutter](/docs/get-started/editor) normally.
+[setting up Flutter]({{site.url}}/get-started/editor) normally.
 From here on, packages fetched by `flutter pub get` are
 downloaded from `flutter-io.cn` in any shell where `PUB_HOSTED_URL`
 and `FLUTTER_STORAGE_BASE_URL` are set.
@@ -67,6 +67,6 @@ for assistance.
 
 ## Community-run mirror sites
 
-* Shanghai Jiaotong University Linux User Group
-  * `FLUTTER_STORAGE_BASE_URL`: [https://mirrors.sjtug.sjtu.edu.cn/](https://mirrors.sjtug.sjtu.edu.cn)
-  * `PUB_HOSTED_URL`: [https://dart-pub.mirrors.sjtug.sjtu.edu.cn/](https://dart-pub.mirrors.sjtug.sjtu.edu.cn)
+* Shanghai Jiao Tong University Linux User Group
+  * `FLUTTER_STORAGE_BASE_URL`: [https://mirror.sjtu.edu.cn/](https://mirror.sjtu.edu.cn)
+  * `PUB_HOSTED_URL`: [https://mirror.sjtu.edu.cn/dart-pub/](https://mirror.sjtu.edu.cn/dart-pub)

@@ -1,23 +1,20 @@
-.DS_Store
 _site
 .*-cache
 .*-metadata
+.DS_Store
+.env
+.firebase/
+.idea/
+.vscode/
+*.log
+*.swp
 build
-.*swp
 node_modules
 
-# Dart and Flutter
-.flutter-plugins
-.packages
+# Dart and Flutter, build related
 .dart_tool
-# pubspec.lock
-example.g
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+pubspec.lock
 tmp/
-
-# We haven't had any issues due to npm (sub-)package version discrepancies,
-# so we'll ignore the npm lock file for now.
-package-lock.json
-
-.idea/
-.firebase/
-firebase-debug.log
